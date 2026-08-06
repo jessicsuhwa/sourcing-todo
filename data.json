@@ -49,6 +49,16 @@
       "content": "QUICK SHOW 샘플수령",
       "note": "",
       "createdAt": "2026-08-06T07:59:48.806Z"
+    },
+    {
+      "id": "new-1786003209647-901",
+      "date": "2026-08-06",
+      "category": "ETC",
+      "status": "진행중",
+      "no": 2,
+      "content": "각업체 AI WEB 서버 활용법 전달",
+      "note": "",
+      "createdAt": "2026-08-06T08:00:09.647Z"
     }
   ],
   "overrides": {
@@ -1972,5 +1982,5 @@
     "orig-2059": "완료",
     "orig-2060": "완료"
   },
-  "updatedAt": "2026-08-06T07:59:55.255Z"
+  "updatedAt": "2026-08-06T08:00:09.647Z"
 }

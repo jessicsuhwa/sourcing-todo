@@ -35,7 +35,6 @@
     height:100vh;
     overflow:hidden;
   }
-  /* ===== Sidebar ===== */
   #sidebar{
     width:280px;
     min-width:280px;
@@ -45,238 +44,52 @@
     flex-direction:column;
     height:100%;
   }
-  #brand{
-    padding:20px 18px 14px;
-    border-bottom:1px solid rgba(255,255,255,.08);
-  }
-  #brand .eyebrow{
-    font-size:10.5px;
-    letter-spacing:.14em;
-    color:#8CA0C6;
-    text-transform:uppercase;
-    margin-bottom:4px;
-  }
-  #brand h1{
-    font-size:17px;
-    margin:0;
-    font-weight:700;
-    letter-spacing:-.01em;
-  }
-  #brand .sub{
-    margin-top:8px;
-    font-size:11.5px;
-    color:#9FB0CC;
-    line-height:1.5;
-  }
-  #stats-row{
-    display:flex;
-    gap:8px;
-    padding:12px 18px 14px;
-    border-bottom:1px solid rgba(255,255,255,.08);
-  }
-  .stat-chip{
-    flex:1;
-    background:rgba(255,255,255,.06);
-    border-radius:8px;
-    padding:8px 8px;
-    text-align:center;
-  }
+  #brand{ padding:20px 18px 14px; border-bottom:1px solid rgba(255,255,255,.08); }
+  #brand .eyebrow{ font-size:10.5px; letter-spacing:.14em; color:#8CA0C6; text-transform:uppercase; margin-bottom:4px; }
+  #brand h1{ font-size:17px; margin:0; font-weight:700; letter-spacing:-.01em; }
+  #brand .sub{ margin-top:8px; font-size:11.5px; color:#9FB0CC; line-height:1.5; }
+  #stats-row{ display:flex; gap:8px; padding:12px 18px 14px; border-bottom:1px solid rgba(255,255,255,.08); }
+  .stat-chip{ flex:1; background:rgba(255,255,255,.06); border-radius:8px; padding:8px 8px; text-align:center; }
   .stat-chip b{display:block;font-size:16px;font-weight:700;}
   .stat-chip span{font-size:9.5px;color:#9FB0CC;letter-spacing:.03em;}
-  #new-week-btn{
-    margin:12px 18px 0;
-    background:var(--amber);
-    color:#241605;
-    border:none;
-    border-radius:8px;
-    padding:10px 12px;
-    font-size:12.5px;
-    font-weight:700;
-    cursor:pointer;
-    font-family:inherit;
-  }
+  #new-week-btn{ margin:12px 18px 0; background:var(--amber); color:#241605; border:none; border-radius:8px; padding:10px 12px; font-size:12.5px; font-weight:700; cursor:pointer; font-family:inherit; }
   #new-week-btn:hover{filter:brightness(1.06);}
-  #carry-btn, #mail-btn{
-    margin:8px 18px 0;
-    background:rgba(255,255,255,.08);
-    color:#D7DEEC;
-    border:1px solid rgba(255,255,255,.16);
-    border-radius:8px;
-    padding:9px 12px;
-    font-size:12px;
-    font-weight:600;
-    cursor:pointer;
-    font-family:inherit;
-  }
+  #carry-btn, #mail-btn{ margin:8px 18px 0; background:rgba(255,255,255,.08); color:#D7DEEC; border:1px solid rgba(255,255,255,.16); border-radius:8px; padding:9px 12px; font-size:12px; font-weight:600; cursor:pointer; font-family:inherit; }
   #carry-btn:hover, #mail-btn:hover{background:rgba(255,255,255,.14);}
-  #risk-nav{
-    margin:14px 18px 0;
-    padding:10px 12px;
-    border-radius:9px;
-    background:rgba(184,73,61,.18);
-    border:1px solid rgba(184,73,61,.4);
-    cursor:pointer;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-  }
+  #risk-nav{ margin:14px 18px 0; padding:10px 12px; border-radius:9px; background:rgba(184,73,61,.18); border:1px solid rgba(184,73,61,.4); cursor:pointer; display:flex; align-items:center; justify-content:space-between; }
   #risk-nav:hover{background:rgba(184,73,61,.26);}
   #risk-nav.active{background:rgba(184,73,61,.36);box-shadow:inset 3px 0 0 #E8776A;}
   #risk-nav .rn-label{font-size:12px;font-weight:700;color:#F3D7D2;}
-  #risk-nav .rn-count{
-    background:#E8776A;
-    color:#2A0E0A;
-    font-size:11px;
-    font-weight:800;
-    padding:2px 8px;
-    border-radius:20px;
-  }
-  #date-list{
-    flex:1;
-    overflow-y:auto;
-    padding:6px 10px 16px;
-    margin-top:8px;
-  }
-  .month-group{margin-top:10px;}
-  .month-label{
-    font-size:10.5px;
-    color:#7690BC;
-    letter-spacing:.09em;
-    padding:6px 8px 4px;
-    text-transform:uppercase;
-    position:sticky;
-    top:0;
-    background:var(--navy);
-    z-index:2;
-  }
-  .date-item{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:8px 10px;
-    border-radius:7px;
-    cursor:pointer;
-    font-size:12.5px;
-    color:#D7DEEC;
-    margin-bottom:2px;
-    transition:background .12s;
-  }
+  #risk-nav .rn-count{ background:#E8776A; color:#2A0E0A; font-size:11px; font-weight:800; padding:2px 8px; border-radius:20px; }
+  #date-list{ flex:1; overflow-y:auto; padding:6px 10px 16px; margin-top:8px; }
+  .month-label{ font-size:10.5px; color:#7690BC; letter-spacing:.09em; padding:6px 8px 4px; text-transform:uppercase; position:sticky; top:0; background:var(--navy); z-index:2; }
+  .date-item{ display:flex; align-items:center; justify-content:space-between; padding:8px 10px; border-radius:7px; cursor:pointer; font-size:12.5px; color:#D7DEEC; margin-bottom:2px; transition:background .12s; }
   .date-item:hover{background:rgba(255,255,255,.07);}
-  .date-item.active{
-    background:var(--navy-3);
-    color:#fff;
-    box-shadow:inset 3px 0 0 var(--amber);
-  }
+  .date-item.active{ background:var(--navy-3); color:#fff; box-shadow:inset 3px 0 0 var(--amber); }
   .date-item .d-main{display:flex;flex-direction:column;}
   .date-item .d-date{font-weight:600;display:flex;align-items:center;gap:5px;}
   .date-item .d-weekday{font-size:10px;color:#8CA0C6;}
   .date-item.active .d-weekday{color:#C9D6EC;}
-  .date-item .badge-count{
-    background:rgba(255,255,255,.1);
-    border-radius:20px;
-    font-size:10px;
-    padding:2px 7px;
-    color:#C9D6EC;
-    min-width:20px;
-    text-align:center;
-  }
+  .date-item .badge-count{ background:rgba(255,255,255,.1); border-radius:20px; font-size:10px; padding:2px 7px; color:#C9D6EC; min-width:20px; text-align:center; }
   .date-item.active .badge-count{background:var(--amber);color:#241605;font-weight:700;}
   .live-dot{width:6px;height:6px;border-radius:50%;background:#5FD68A;display:inline-block;}
   #date-list::-webkit-scrollbar{width:6px;}
   #date-list::-webkit-scrollbar-thumb{background:rgba(255,255,255,.15);border-radius:3px;}
-  #backup-bar{
-    padding:10px 18px 16px;
-    border-top:1px solid rgba(255,255,255,.08);
-    display:flex;
-    gap:6px;
-  }
-  #backup-bar button{
-    flex:1;
-    background:rgba(255,255,255,.06);
-    color:#B9C6DE;
-    border:1px solid rgba(255,255,255,.12);
-    border-radius:7px;
-    padding:8px 6px;
-    font-size:10.8px;
-    font-weight:600;
-    cursor:pointer;
-    font-family:inherit;
-  }
-  #backup-bar button:hover{background:rgba(255,255,255,.12);}
 
-  /* ===== Main ===== */
-  #main{
-    flex:1;
-    display:flex;
-    flex-direction:column;
-    height:100%;
-    overflow:hidden;
-  }
-  #topbar{
-    padding:16px 28px;
-    border-bottom:1px solid var(--line);
-    background:var(--paper-2);
-    display:flex;
-    align-items:center;
-    gap:16px;
-  }
+  #main{ flex:1; display:flex; flex-direction:column; height:100%; overflow:hidden; }
+  #topbar{ padding:16px 28px; border-bottom:1px solid var(--line); background:var(--paper-2); display:flex; align-items:center; gap:16px; }
   #topbar .title-block{flex:0 0 auto;}
-  #topbar h2{
-    margin:0;
-    font-size:19px;
-    font-weight:700;
-    letter-spacing:-.01em;
-  }
+  #topbar h2{ margin:0; font-size:19px; font-weight:700; letter-spacing:-.01em; }
   #topbar .title-block .meta{font-size:11.5px;color:var(--ink-soft);margin-top:2px;}
-  #search-wrap{
-    flex:1;
-    display:flex;
-    align-items:center;
-    background:var(--gray-bg);
-    border-radius:9px;
-    padding:8px 12px;
-    gap:8px;
-    max-width:360px;
-    margin-left:auto;
-  }
+  #search-wrap{ flex:1; display:flex; align-items:center; background:var(--gray-bg); border-radius:9px; padding:8px 12px; gap:8px; max-width:360px; margin-left:auto; }
   #search-wrap svg{flex:none;opacity:.5;}
-  #search{
-    border:none;
-    background:transparent;
-    outline:none;
-    font-size:13px;
-    width:100%;
-    font-family:inherit;
-    color:var(--ink);
-  }
+  #search{ border:none; background:transparent; outline:none; font-size:13px; width:100%; font-family:inherit; color:var(--ink); }
   #search::placeholder{color:#96988E;}
-  #add-item-btn{
-    background:var(--navy);
-    color:#fff;
-    border:none;
-    border-radius:9px;
-    padding:10px 16px;
-    font-size:12.8px;
-    font-weight:700;
-    cursor:pointer;
-    font-family:inherit;
-    white-space:nowrap;
-  }
+  #add-item-btn{ background:var(--navy); color:#fff; border:none; border-radius:9px; padding:10px 16px; font-size:12.8px; font-weight:700; cursor:pointer; font-family:inherit; white-space:nowrap; }
   #add-item-btn:hover{background:var(--navy-2);}
 
-  #summary-strip{
-    display:flex;
-    gap:10px;
-    padding:14px 28px;
-    flex-wrap:wrap;
-  }
-  .sum-card{
-    background:var(--paper-2);
-    border:1px solid var(--line);
-    border-radius:10px;
-    padding:10px 16px;
-    min-width:100px;
-  }
+  #summary-strip{ display:flex; gap:10px; padding:14px 28px; flex-wrap:wrap; }
+  .sum-card{ background:var(--paper-2); border:1px solid var(--line); border-radius:10px; padding:10px 16px; min-width:100px; }
   .sum-card .num{font-size:20px;font-weight:700;line-height:1;}
   .sum-card .lbl{font-size:10.5px;color:var(--ink-soft);margin-top:4px;letter-spacing:.02em;}
   .sum-card.tot .num{color:var(--navy);}
@@ -284,401 +97,92 @@
   .sum-card.done .num{color:var(--green);}
   .sum-card.hold .num{color:var(--red);}
 
-  #content{
-    flex:1;
-    overflow-y:auto;
-    padding:4px 28px 40px;
-  }
+  #content{ flex:1; overflow-y:auto; padding:4px 28px 40px; }
   .category-block{margin-bottom:22px;}
-  .category-head{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    margin-bottom:8px;
-    padding-bottom:6px;
-    border-bottom:2px solid var(--navy);
-  }
-  .category-head h3{
-    margin:0;
-    font-size:14.5px;
-    font-weight:700;
-    color:var(--navy);
-    letter-spacing:-.01em;
-  }
-  .category-head .cnt{
-    font-size:10.5px;
-    color:#fff;
-    background:var(--indigo);
-    padding:2px 8px;
-    border-radius:20px;
-  }
-  .item-row{
-    display:grid;
-    grid-template-columns:64px 30px 1fr 24px;
-    gap:12px;
-    padding:10px 4px;
-    border-bottom:1px solid var(--line);
-    align-items:start;
-  }
+  .category-head{ display:flex; align-items:center; gap:10px; margin-bottom:8px; padding-bottom:6px; border-bottom:2px solid var(--navy); }
+  .category-head h3{ margin:0; font-size:14.5px; font-weight:700; color:var(--navy); letter-spacing:-.01em; }
+  .category-head .cnt{ font-size:10.5px; color:#fff; background:var(--indigo); padding:2px 8px; border-radius:20px; }
+  .item-row{ display:grid; grid-template-columns:64px 30px 1fr 24px; gap:12px; padding:10px 4px; border-bottom:1px solid var(--line); align-items:start; }
   .item-row:last-child{border-bottom:none;}
-  .status-badge{
-    font-size:10px;
-    font-weight:700;
-    text-align:center;
-    padding:3px 0;
-    border-radius:5px;
-    letter-spacing:.01em;
-    cursor:pointer;
-    user-select:none;
-  }
+  .status-badge{ font-size:10px; font-weight:700; text-align:center; padding:3px 0; border-radius:5px; letter-spacing:.01em; cursor:pointer; user-select:none; }
   .status-badge.진행중{background:var(--amber-bg);color:var(--amber);}
   .status-badge.완료{background:var(--green-bg);color:var(--green);}
   .status-badge.보류{background:var(--red-bg);color:var(--red);}
   .status-badge.취소{background:var(--gray-bg);color:#767469;}
   .status-badge.empty{background:var(--gray-bg);color:#B8B6AB;}
-  .item-no{
-    color:#B8B6AB;
-    font-size:11.5px;
-    font-weight:600;
-    padding-top:2px;
-  }
-  .aging-tag{
-    display:inline-block;
-    font-size:10px;
-    font-weight:700;
-    padding:1px 7px;
-    border-radius:10px;
-    margin-left:6px;
-    vertical-align:middle;
-  }
+  .item-no{ color:#B8B6AB; font-size:11.5px; font-weight:600; padding-top:2px; }
+  .aging-tag{ display:inline-block; font-size:10px; font-weight:700; padding:1px 7px; border-radius:10px; margin-left:6px; vertical-align:middle; }
   .aging-tag.mid{background:var(--amber-bg);color:var(--amber);}
   .aging-tag.high{background:var(--red-bg);color:var(--red);}
-  .filter-pills{
-    display:flex;
-    gap:6px;
-    padding:0 28px 12px;
-  }
-  .pill{
-    border:1px solid var(--line);
-    background:#fff;
-    border-radius:20px;
-    padding:5px 13px;
-    font-size:11.5px;
-    cursor:pointer;
-    color:var(--ink-soft);
-    white-space:nowrap;
-    font-weight:600;
-  }
+  .filter-pills{ display:flex; gap:6px; padding:0 28px 12px; }
+  .pill{ border:1px solid var(--line); background:#fff; border-radius:20px; padding:5px 13px; font-size:11.5px; cursor:pointer; color:var(--ink-soft); white-space:nowrap; font-weight:600; }
   .pill.active{background:var(--navy);color:#fff;border-color:var(--navy);}
-  .risk-row{
-    background:var(--paper-2);
-    border:1px solid var(--line);
-    border-left:3px solid var(--red);
-    border-radius:8px;
-    padding:12px 14px;
-    margin-bottom:8px;
-    display:grid;
-    grid-template-columns:64px 1fr 90px;
-    gap:12px;
-    align-items:start;
-  }
+  .risk-row{ background:var(--paper-2); border:1px solid var(--line); border-left:3px solid var(--red); border-radius:8px; padding:12px 14px; margin-bottom:8px; display:grid; grid-template-columns:64px 1fr 90px; gap:12px; align-items:start; }
   .risk-row .meta-line{font-size:10.5px;color:var(--ink-soft);margin-top:4px;}
-  .risk-row .cat-tag{
-    display:inline-block;
-    font-size:10px;
-    color:var(--indigo);
-    font-weight:700;
-    margin-bottom:3px;
-  }
-  .item-body .content{
-    font-size:13.3px;
-    line-height:1.55;
-    color:var(--ink);
-  }
-  .item-body .note{
-    margin-top:3px;
-    font-size:11.8px;
-    color:var(--ink-soft);
-    line-height:1.5;
-    padding-left:10px;
-    border-left:2px solid var(--line);
-  }
-  .del-btn{
-    background:none;
-    border:none;
-    color:#C7C4B8;
-    cursor:pointer;
-    font-size:15px;
-    padding:0;
-    line-height:1;
-  }
+  .risk-row .cat-tag{ display:inline-block; font-size:10px; color:var(--indigo); font-weight:700; margin-bottom:3px; }
+  .item-body .content{ font-size:13.3px; line-height:1.55; color:var(--ink); }
+  .item-body .note{ margin-top:3px; font-size:11.8px; color:var(--ink-soft); line-height:1.5; padding-left:10px; border-left:2px solid var(--line); }
+  .del-btn{ background:none; border:none; color:#C7C4B8; cursor:pointer; font-size:15px; padding:0; line-height:1; }
   .del-btn:hover{color:var(--red);}
   mark{background:#FDE8A8;padding:0 1px;border-radius:2px;}
 
-  .search-result-date{
-    font-size:11px;
-    font-weight:700;
-    color:var(--indigo);
-    margin-bottom:2px;
-  }
-  .empty-state{
-    text-align:center;
-    color:var(--ink-soft);
-    padding:80px 20px;
-    font-size:13px;
-  }
+  .search-result-date{ font-size:11px; font-weight:700; color:var(--indigo); margin-bottom:2px; }
+  .empty-state{ text-align:center; color:var(--ink-soft); padding:80px 20px; font-size:13px; }
   .empty-state .big{font-size:34px;margin-bottom:10px;}
 
-  #insight-box{
-    margin:0 28px 18px;
-    background:linear-gradient(135deg,#1C3159,#12213E);
-    border-radius:12px;
-    padding:14px 18px;
-    color:#EAEDF4;
-    display:flex;
-    align-items:flex-start;
-    gap:12px;
-  }
+  #insight-box{ margin:0 28px 18px; background:linear-gradient(135deg,#1C3159,#12213E); border-radius:12px; padding:14px 18px; color:#EAEDF4; display:flex; align-items:flex-start; gap:12px; }
   #insight-box .ico{font-size:18px;}
   #insight-box .txt{font-size:12px;line-height:1.6;color:#CBD5EA;}
   #insight-box .txt b{color:#fff;}
-  #insight-box .txt .tag{
-    display:inline-block;
-    background:rgba(255,255,255,.12);
-    padding:1px 8px;
-    border-radius:10px;
-    margin:1px 3px 1px 0;
-    font-size:11px;
-  }
+  #insight-box .txt .tag{ display:inline-block; background:rgba(255,255,255,.12); padding:1px 8px; border-radius:10px; margin:1px 3px 1px 0; font-size:11px; }
 
-  /* ===== Modal ===== */
-  #overlay{
-    position:fixed;
-    inset:0;
-    background:rgba(18,33,62,.45);
-    display:none;
-    align-items:center;
-    justify-content:center;
-    z-index:50;
-  }
+  #overlay{ position:fixed; inset:0; background:rgba(18,33,62,.45); display:none; align-items:center; justify-content:center; z-index:50; }
   #overlay.show{display:flex;}
-  #overlay2{
-    position:fixed;
-    inset:0;
-    background:rgba(18,33,62,.45);
-    display:none;
-    align-items:center;
-    justify-content:center;
-    z-index:50;
-  }
+  #overlay2{ position:fixed; inset:0; background:rgba(18,33,62,.45); display:none; align-items:center; justify-content:center; z-index:50; }
   #overlay2.show{display:flex;}
-  #modal, #modal2{
-    background:#fff;
-    width:480px;
-    max-width:92vw;
-    max-height:88vh;
-    overflow-y:auto;
-    border-radius:14px;
-    padding:22px 24px 20px;
-    box-shadow:0 20px 60px rgba(0,0,0,.25);
-  }
+  #modal, #modal2{ background:#fff; width:480px; max-width:92vw; max-height:88vh; overflow-y:auto; border-radius:14px; padding:22px 24px 20px; box-shadow:0 20px 60px rgba(0,0,0,.25); }
   #modal h3, #modal2 h3{margin:0 0 4px;font-size:16px;color:var(--navy);}
   #modal .modal-sub, #modal2 .modal-sub{font-size:11.5px;color:var(--ink-soft);margin-bottom:16px;}
   .field{margin-bottom:12px;}
-  .field label{
-    display:block;
-    font-size:11.5px;
-    font-weight:700;
-    color:var(--ink-soft);
-    margin-bottom:5px;
-  }
-  .field input, .field select, .field textarea{
-    width:100%;
-    border:1px solid var(--line);
-    border-radius:7px;
-    padding:8px 10px;
-    font-size:13px;
-    font-family:inherit;
-    outline:none;
-    background:#FCFCFA;
-  }
+  .field label{ display:block; font-size:11.5px; font-weight:700; color:var(--ink-soft); margin-bottom:5px; }
+  .field input, .field select, .field textarea{ width:100%; border:1px solid var(--line); border-radius:7px; padding:8px 10px; font-size:13px; font-family:inherit; outline:none; background:#FCFCFA; }
   .field input:focus, .field select:focus, .field textarea:focus{border-color:var(--indigo);}
   .field textarea{resize:vertical;min-height:52px;}
   .field-row{display:flex;gap:10px;}
   .field-row .field{flex:1;}
-  .modal-actions{
-    display:flex;
-    justify-content:flex-end;
-    gap:8px;
-    margin-top:16px;
-  }
-  .btn-secondary{
-    background:var(--gray-bg);
-    color:var(--ink-soft);
-    border:none;
-    border-radius:8px;
-    padding:9px 16px;
-    font-size:12.5px;
-    font-weight:600;
-    cursor:pointer;
-    font-family:inherit;
-  }
-  .btn-primary{
-    background:var(--navy);
-    color:#fff;
-    border:none;
-    border-radius:8px;
-    padding:9px 18px;
-    font-size:12.5px;
-    font-weight:700;
-    cursor:pointer;
-    font-family:inherit;
-  }
+  .modal-actions{ display:flex; justify-content:flex-end; gap:8px; margin-top:16px; }
+  .btn-secondary{ background:var(--gray-bg); color:var(--ink-soft); border:none; border-radius:8px; padding:9px 16px; font-size:12.5px; font-weight:600; cursor:pointer; font-family:inherit; }
+  .btn-primary{ background:var(--navy); color:#fff; border:none; border-radius:8px; padding:9px 18px; font-size:12.5px; font-weight:700; cursor:pointer; font-family:inherit; }
   .btn-primary:hover{background:var(--navy-2);}
-  #save-toast{
-    position:fixed;
-    bottom:22px;
-    left:50%;
-    transform:translateX(-50%) translateY(20px);
-    background:var(--navy);
-    color:#fff;
-    padding:10px 18px;
-    border-radius:20px;
-    font-size:12.5px;
-    opacity:0;
-    transition:all .25s;
-    z-index:60;
-    pointer-events:none;
-  }
+  #save-toast{ position:fixed; bottom:22px; left:50%; transform:translateX(-50%) translateY(20px); background:var(--navy); color:#fff; padding:10px 18px; border-radius:20px; font-size:12.5px; opacity:0; transition:all .25s; z-index:60; pointer-events:none; }
   #save-toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
 
-  #confirm-overlay, #alert-overlay{
-    position:fixed;
-    inset:0;
-    background:rgba(18,33,62,.55);
-    display:none;
-    align-items:center;
-    justify-content:center;
-    z-index:80;
-  }
+  #confirm-overlay, #alert-overlay{ position:fixed; inset:0; background:rgba(18,33,62,.55); display:none; align-items:center; justify-content:center; z-index:80; }
   #confirm-overlay.show, #alert-overlay.show{display:flex;}
-  #confirm-box, #alert-box{
-    background:#fff;
-    width:360px;
-    max-width:88vw;
-    border-radius:14px;
-    padding:22px 22px 18px;
-    box-shadow:0 20px 60px rgba(0,0,0,.3);
-  }
-  #confirm-msg, #alert-msg{
-    font-size:13px;
-    line-height:1.6;
-    color:var(--ink);
-    white-space:pre-line;
-    margin-bottom:16px;
-  }
-  .carry-item{
-    display:flex;
-    align-items:flex-start;
-    gap:9px;
-    padding:9px 8px;
-    border-bottom:1px solid var(--line);
-  }
+  #confirm-box, #alert-box{ background:#fff; width:360px; max-width:88vw; border-radius:14px; padding:22px 22px 18px; box-shadow:0 20px 60px rgba(0,0,0,.3); }
+  #confirm-msg, #alert-msg{ font-size:13px; line-height:1.6; color:var(--ink); white-space:pre-line; margin-bottom:16px; }
+  .carry-item{ display:flex; align-items:flex-start; gap:9px; padding:9px 8px; border-bottom:1px solid var(--line); }
   .carry-item input[type="checkbox"]{margin-top:3px;}
   .carry-item .cc-content{font-size:12.8px;line-height:1.5;}
   .carry-item .cc-cat{font-size:10.5px;color:var(--indigo);font-weight:700;}
   #carry-list, .carry-list-box{max-height:280px;overflow-y:auto;border:1px solid var(--line);border-radius:8px;padding:0 8px;margin-bottom:12px;}
   #carry-empty{padding:30px;text-align:center;color:var(--ink-soft);font-size:12.5px;}
-  #overlay3{
-    position:fixed;
-    inset:0;
-    background:rgba(18,33,62,.45);
-    display:none;
-    align-items:center;
-    justify-content:center;
-    z-index:50;
-  }
-  #overlay3.show{display:flex;}
-  #modal3{
-    background:#fff;
-    width:560px;
-    max-width:92vw;
-    max-height:88vh;
-    overflow-y:auto;
-    border-radius:14px;
-    padding:22px 24px 20px;
-    box-shadow:0 20px 60px rgba(0,0,0,.25);
-  }
-  #modal3 h3{margin:0 0 4px;font-size:16px;color:var(--navy);}
-  #modal3 .modal-sub{font-size:11.5px;color:var(--ink-soft);margin-bottom:16px;line-height:1.5;}
-  .mail-item{
-    display:flex;
-    align-items:flex-start;
-    gap:9px;
-    padding:9px 8px;
-    border-bottom:1px solid var(--line);
-  }
-  .mail-item:last-child{border-bottom:none;}
-  .mail-item input[type="checkbox"]{margin-top:3px;}
-  .mail-item .mi-cat{font-size:10.5px;color:var(--indigo);font-weight:700;}
-  .mail-item .mi-content{font-size:12.8px;line-height:1.5;margin-top:2px;}
-  .mail-item .mi-note{font-size:11px;color:var(--ink-soft);margin-top:2px;}
 
-  /* ==================== Mobile responsive ==================== */
-  #hamburger-btn{
-    display:none;
-    background:none;
-    border:none;
-    cursor:pointer;
-    padding:6px;
-    margin-right:2px;
-    flex:none;
-  }
-  #hamburger-btn span{
-    display:block;
-    width:20px;
-    height:2px;
-    background:var(--ink);
-    margin:4px 0;
-    border-radius:2px;
-  }
-  #sidebar-backdrop{
-    display:none;
-    position:fixed;
-    inset:0;
-    background:rgba(0,0,0,.45);
-    z-index:39;
-  }
+  #hamburger-btn{ display:none; background:none; border:none; cursor:pointer; padding:6px; margin-right:2px; flex:none; }
+  #hamburger-btn span{ display:block; width:20px; height:2px; background:var(--ink); margin:4px 0; border-radius:2px; }
+  #sidebar-backdrop{ display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:39; }
   #sidebar-backdrop.show{display:block;}
 
   @media (max-width: 768px){
     body{ overflow:hidden; }
     #hamburger-btn{ display:block; }
-    #sidebar{
-      position:fixed;
-      top:0; left:0; bottom:0;
-      width:82vw;
-      max-width:320px;
-      z-index:40;
-      transform:translateX(-100%);
-      transition:transform .22s ease;
-      box-shadow:4px 0 24px rgba(0,0,0,.25);
-    }
+    #sidebar{ position:fixed; top:0; left:0; bottom:0; width:82vw; max-width:320px; z-index:40; transform:translateX(-100%); transition:transform .22s ease; box-shadow:4px 0 24px rgba(0,0,0,.25); }
     #sidebar.open{ transform:translateX(0); }
     #main{ width:100%; }
-    #topbar{
-      padding:12px 14px;
-      gap:8px;
-      flex-wrap:wrap;
-    }
+    #topbar{ padding:12px 14px; gap:8px; flex-wrap:wrap; }
     #topbar .title-block h2{ font-size:16px; }
     #topbar .title-block .meta{ font-size:10.5px; }
-    #search-wrap{
-      order:3;
-      max-width:none;
-      width:100%;
-      margin-left:0;
-    }
+    #search-wrap{ order:3; max-width:none; width:100%; margin-left:0; }
     #add-item-btn{ font-size:11.5px; padding:9px 12px; white-space:nowrap; }
     #summary-strip{ padding:10px 14px; gap:8px; }
     .sum-card{ min-width:74px; padding:8px 10px; }
@@ -688,97 +192,39 @@
     #status-filter{ justify-content:flex-start !important; }
     #bulk-complete-btn, #undo-bulk-btn{ font-size:10.5px; padding:6px 10px; }
     #content{ padding:4px 14px 40px; }
-    .item-row{
-      grid-template-columns:52px 22px 1fr 20px;
-      gap:8px;
-      padding:9px 2px;
-    }
+    .item-row{ grid-template-columns:52px 22px 1fr 20px; gap:8px; padding:9px 2px; }
     .item-body .content{ font-size:12.8px; }
     #insight-box{ margin:0 14px 14px; padding:12px 14px; }
     #modal, #modal2, #modal3{ width:92vw; padding:18px 16px 16px; }
     #setup-box{ width:90vw; padding:24px 20px 20px; }
     .risk-row{ grid-template-columns:52px 1fr 70px; gap:8px; padding:10px 10px; }
-    /* iOS auto-zoom prevention: inputs need >=16px font-size */
     input, select, textarea{ font-size:16px !important; }
     .status-badge{ min-height:22px; }
     .item-row{ min-height:44px; }
     #fab-add-btn{ display:flex; }
   }
 
-  #fab-add-btn{
-    display:none;
-    position:fixed;
-    right:18px; bottom:22px;
-    width:56px; height:56px;
-    border-radius:50%;
-    background:var(--amber);
-    color:#241605;
-    border:none;
-    box-shadow:0 6px 18px rgba(0,0,0,.28);
-    font-size:28px;
-    line-height:1;
-    align-items:center;
-    justify-content:center;
-    cursor:pointer;
-    z-index:38;
-  }
+  #fab-add-btn{ display:none; position:fixed; right:18px; bottom:22px; width:56px; height:56px; border-radius:50%; background:var(--amber); color:#241605; border:none; box-shadow:0 6px 18px rgba(0,0,0,.28); font-size:28px; line-height:1; align-items:center; justify-content:center; cursor:pointer; z-index:38; }
   #fab-add-btn:active{ transform:scale(0.94); }
 
-  /* AI quick add */
-  #ai-quick-btn{
-    background:linear-gradient(135deg,#6D5BD0,#8B6FE8);
-    color:#fff;
-    border:none;
-    border-radius:9px;
-    padding:10px 14px;
-    font-size:12.5px;
-    font-weight:700;
-    cursor:pointer;
-    font-family:inherit;
-    white-space:nowrap;
-  }
+  #ai-quick-btn{ background:linear-gradient(135deg,#2F6B4F,#3E8A63); color:#fff; border:none; border-radius:9px; padding:10px 14px; font-size:12.5px; font-weight:700; cursor:pointer; font-family:inherit; white-space:nowrap; }
   #ai-quick-btn:hover{ filter:brightness(1.08); }
-  #ai-loading{ display:flex; align-items:center; gap:8px; padding:20px; color:var(--ink-soft); font-size:12.5px; }
-  .spinner{
-    width:16px; height:16px; border-radius:50%;
-    border:2px solid var(--line); border-top-color:var(--indigo);
-    animation:spin .7s linear infinite;
-  }
-  @keyframes spin{ to{ transform:rotate(360deg); } }
 
-
-  /* ---- setup screen ---- */
-  #setup-overlay{
-    position:fixed; inset:0; background:var(--paper); z-index:200;
-    display:flex; align-items:center; justify-content:center;
-  }
-  #setup-box{
-    background:#fff; width:520px; max-width:92vw; border-radius:16px;
-    padding:32px 32px 26px; box-shadow:0 20px 60px rgba(0,0,0,.15);
-    border:1px solid var(--line);
-  }
+  #setup-overlay{ position:fixed; inset:0; background:var(--paper); z-index:200; display:flex; align-items:center; justify-content:center; }
+  #setup-box{ background:#fff; width:520px; max-width:92vw; border-radius:16px; padding:32px 32px 26px; box-shadow:0 20px 60px rgba(0,0,0,.15); border:1px solid var(--line); }
   #setup-box h2{margin:0 0 6px; font-size:19px; color:var(--navy);}
   #setup-box .sub{font-size:12px; color:var(--ink-soft); line-height:1.6; margin-bottom:20px;}
   #setup-box .field{margin-bottom:14px;}
   #setup-box .field label{display:block; font-size:11.5px; font-weight:700; color:var(--ink-soft); margin-bottom:5px;}
-  #setup-box .field input{
-    width:100%; border:1px solid var(--line); border-radius:7px; padding:9px 11px;
-    font-size:13px; font-family:inherit; outline:none; background:#FCFCFA;
-  }
+  #setup-box .field input{ width:100%; border:1px solid var(--line); border-radius:7px; padding:9px 11px; font-size:13px; font-family:inherit; outline:none; background:#FCFCFA; }
   #setup-box .field input:focus{border-color:var(--indigo);}
   #setup-box .hint{font-size:10.5px; color:#9A9A90; margin-top:4px; line-height:1.5;}
   #setup-status{font-size:12px; margin-top:10px; min-height:18px;}
   #setup-status.err{color:var(--red);}
   #setup-status.ok{color:var(--green);}
-  #gh-settings-btn{
-    margin:8px 18px 0; background:rgba(255,255,255,.08); color:#D7DEEC;
-    border:1px solid rgba(255,255,255,.16); border-radius:8px; padding:9px 12px;
-    font-size:12px; font-weight:600; cursor:pointer; font-family:inherit;
-  }
+  #gh-settings-btn{ margin:8px 18px 0; background:rgba(255,255,255,.08); color:#D7DEEC; border:1px solid rgba(255,255,255,.16); border-radius:8px; padding:9px 12px; font-size:12px; font-weight:600; cursor:pointer; font-family:inherit; }
   #gh-settings-btn:hover{background:rgba(255,255,255,.14);}
-  #sync-indicator{
-    font-size:10.5px; color:#9FB0CC; padding:0 18px 10px; display:flex; align-items:center; gap:6px;
-  }
+  #sync-indicator{ font-size:10.5px; color:#9FB0CC; padding:0 18px 10px; display:flex; align-items:center; gap:6px; }
   #sync-indicator .dot{width:6px;height:6px;border-radius:50%;background:#5FD68A;flex:none;}
   #sync-indicator.syncing .dot{background:#E8B94A;}
   #sync-indicator.error .dot{background:#E8776A;}
@@ -955,27 +401,19 @@
 <div id="save-toast">저장되었습니다</div>
 
 <script>
-// ==================== GitHub-backed storage layer ====================
-let ghConfig = null; // {owner, repo, token}
-let ghDataSha = null; // sha of data.json for updates
-let ARCHIVE = [];     // static historical data, loaded from archive.json
+let ghConfig = null;
+let ghDataSha = null;
+let ARCHIVE = [];
 
 function loadGhConfig(){
-  try{
-    const raw = localStorage.getItem('gh_config');
-    return raw ? JSON.parse(raw) : null;
-  }catch(e){ return null; }
+  try{ const raw = localStorage.getItem('gh_config'); return raw ? JSON.parse(raw) : null; }catch(e){ return null; }
 }
-function saveGhConfig(cfg){
-  localStorage.setItem('gh_config', JSON.stringify(cfg));
-}
-
+function saveGhConfig(cfg){ localStorage.setItem('gh_config', JSON.stringify(cfg)); }
 function setSyncStatus(state, text){
   const el = document.getElementById('sync-indicator');
   el.className = state;
   document.getElementById('sync-text').textContent = text;
 }
-
 async function ghApi(path, options){
   const url = `https://api.github.com/repos/${ghConfig.owner}/${ghConfig.repo}/contents/${path}`;
   const res = await fetch(url, {
@@ -988,44 +426,25 @@ async function ghApi(path, options){
   });
   return res;
 }
-
-function b64EncodeUnicode(str){
-  return btoa(unescape(encodeURIComponent(str)));
-}
-function b64DecodeUnicode(str){
-  return decodeURIComponent(escape(atob(str.replace(/\n/g,''))));
-}
-
+function b64EncodeUnicode(str){ return btoa(unescape(encodeURIComponent(str))); }
+function b64DecodeUnicode(str){ return decodeURIComponent(escape(atob(str.replace(/\n/g,'')))); }
 async function ghGetFile(path){
   const res = await ghApi(path, { method: 'GET' });
   if(res.status === 404) return null;
   if(!res.ok) throw new Error(`GitHub 읽기 실패 (${res.status})`);
   return await res.json();
 }
-
 async function ghPutFile(path, obj, sha, message){
-  const body = {
-    message: message || `update ${path}`,
-    content: b64EncodeUnicode(JSON.stringify(obj, null, 2)),
-    branch: ghConfig.branch || 'main'
-  };
+  const body = { message: message || `update ${path}`, content: b64EncodeUnicode(JSON.stringify(obj, null, 2)), branch: ghConfig.branch || 'main' };
   if(sha) body.sha = sha;
   const res = await ghApi(path, { method: 'PUT', body: JSON.stringify(body) });
-  if(!res.ok){
-    const errBody = await res.text();
-    throw new Error(`GitHub 저장 실패 (${res.status}): ${errBody.slice(0,200)}`);
-  }
+  if(!res.ok){ const errBody = await res.text(); throw new Error(`GitHub 저장 실패 (${res.status}): ${errBody.slice(0,200)}`); }
   return await res.json();
 }
-
 async function loadArchive(){
-  try{
-    const res = await fetch('archive.json', { cache: 'no-store' });
-    if(res.ok){ ARCHIVE = await res.json(); return; }
-  }catch(e){}
+  try{ const res = await fetch('archive.json', { cache: 'no-store' }); if(res.ok){ ARCHIVE = await res.json(); return; } }catch(e){}
   ARCHIVE = [];
 }
-
 async function loadStore(){
   setSyncStatus('syncing', '불러오는 중...');
   try{
@@ -1035,9 +454,7 @@ async function loadStore(){
       const parsed = JSON.parse(b64DecodeUnicode(file.content));
       newItems = parsed.newItems || [];
       overrides = parsed.overrides || {};
-    } else {
-      newItems = []; overrides = {}; ghDataSha = null;
-    }
+    } else { newItems = []; overrides = {}; ghDataSha = null; }
     setSyncStatus('', '저장소 연결됨');
   }catch(e){
     newItems = []; overrides = {};
@@ -1045,7 +462,6 @@ async function loadStore(){
     throw e;
   }
 }
-
 let saveQueue = Promise.resolve();
 function saveStore(){
   setSyncStatus('syncing', '저장 중...');
@@ -1062,7 +478,6 @@ function saveStore(){
   return saveQueue;
 }
 
-// ==================== App state ====================
 let newItems = [];
 let overrides = {};
 let byDate = {};
@@ -1100,13 +515,7 @@ function showConfirm(msg){
     const yes = document.getElementById('confirm-yes');
     const no = document.getElementById('confirm-no');
     ov.classList.add('show');
-    function cleanup(val){
-      ov.classList.remove('show');
-      yes.removeEventListener('click', onYes);
-      no.removeEventListener('click', onNo);
-      ov.removeEventListener('click', onBg);
-      resolve(val);
-    }
+    function cleanup(val){ ov.classList.remove('show'); yes.removeEventListener('click', onYes); no.removeEventListener('click', onNo); ov.removeEventListener('click', onBg); resolve(val); }
     function onYes(){ cleanup(true); }
     function onNo(){ cleanup(false); }
     function onBg(e){ if(e.target===ov) cleanup(false); }
@@ -1121,12 +530,7 @@ function showAlert(msg){
     const ov = document.getElementById('alert-overlay');
     const ok = document.getElementById('alert-ok');
     ov.classList.add('show');
-    function cleanup(){
-      ov.classList.remove('show');
-      ok.removeEventListener('click', onOk);
-      ov.removeEventListener('click', onBg);
-      resolve();
-    }
+    function cleanup(){ ov.classList.remove('show'); ok.removeEventListener('click', onOk); ov.removeEventListener('click', onBg); resolve(); }
     function onOk(){ cleanup(); }
     function onBg(e){ if(e.target===ov) cleanup(); }
     ok.addEventListener('click', onOk);
@@ -1138,7 +542,6 @@ function getAllItems(){
   const merged = ARCHIVE.map(r=>({...r, source:'archive'})).concat(newItems.map(r=>({...r, source:'new'})));
   return merged.map(r => overrides[r.id] ? {...r, status: overrides[r.id]} : r);
 }
-
 function threadKeyOf(it){
   const c = (it.content||'').trim().toLowerCase().replace(/\s+/g,'');
   return (it.category||'') + '|' + c.slice(0,14);
@@ -1152,12 +555,8 @@ function computeAging(all, sortedDates, byDateLocal){
       if(!it.content || !it.content.trim()){ weeksOpenById[it.id]=0; return; }
       const key = threadKeyOf(it);
       let th = threads[key];
-      if(th && th.lastDate === prevDate){
-        th.weeksOpen += 1; th.lastDate = dStr; th.lastItemId = it.id;
-      } else {
-        th = { weeksOpen:1, firstDate:dStr, lastDate:dStr, lastItemId:it.id };
-        threads[key] = th;
-      }
+      if(th && th.lastDate === prevDate){ th.weeksOpen += 1; th.lastDate = dStr; th.lastItemId = it.id; }
+      else { th = { weeksOpen:1, firstDate:dStr, lastDate:dStr, lastItemId:it.id }; threads[key] = th; }
       th.active = (it.status === '진행중');
       weeksOpenById[it.id] = th.weeksOpen;
     });
@@ -1170,18 +569,12 @@ function agingTagHtml(itemId){
   const cls = w >= 4 ? 'high' : 'mid';
   return `<span class="aging-tag ${cls}">${w}주째</span>`;
 }
-
 function rebuildIndex(){
   const all = getAllItems();
   byDate = {};
-  all.forEach(r=>{
-    if(!byDate[r.date]) byDate[r.date] = [];
-    byDate[r.date].push(r);
-  });
+  all.forEach(r=>{ if(!byDate[r.date]) byDate[r.date] = []; byDate[r.date].push(r); });
   dates = Object.keys(byDate).sort();
-  if(!currentDate || !dates.includes(currentDate)){
-    currentDate = dates[dates.length-1];
-  }
+  if(!currentDate || !dates.includes(currentDate)){ currentDate = dates[dates.length-1]; }
   aging = computeAging(all, dates, byDate);
   document.getElementById('s-weeks').textContent = dates.length;
   document.getElementById('s-items').textContent = all.length;
@@ -1189,7 +582,6 @@ function rebuildIndex(){
   const riskCount = Object.values(aging.threads).filter(t=>t.active && t.weeksOpen>=3).length;
   document.getElementById('risk-count').textContent = riskCount;
 }
-
 function renderSidebar(){
   const dateListEl = document.getElementById('date-list');
   dateListEl.innerHTML = '';
@@ -1222,7 +614,6 @@ function renderSidebar(){
   });
   document.getElementById('risk-nav').classList.toggle('active', viewMode==='risk');
 }
-
 function statusBadge(status, id){
   const cls = status || 'empty';
   return `<div class="status-badge ${cls}" data-id="${id}" title="클릭하여 상태 변경">${status || '미정'}</div>`;
@@ -1242,11 +633,7 @@ function renderSummary(items){
 }
 function groupByCategory(items){
   const g = {};
-  items.forEach(it=>{
-    const cat = it.category || '기타';
-    if(!g[cat]) g[cat]=[];
-    g[cat].push(it);
-  });
+  items.forEach(it=>{ const cat = it.category || '기타'; if(!g[cat]) g[cat]=[]; g[cat].push(it); });
   return g;
 }
 function renderInsight(dStr, items){
@@ -1268,12 +655,8 @@ function renderInsight(dStr, items){
   txt.innerHTML = `<b>전주 대비 이월 추정 ${carried.length}건</b> — 지난 주(${fmtShort(prevDate)})와 유사한 내용이 이번 주에도 "진행중"으로 남아있습니다.<br>${tags}`;
 }
 function attachRowHandlers(container){
-  container.querySelectorAll('.status-badge').forEach(el=>{
-    el.addEventListener('click', ()=>cycleStatus(el.dataset.id));
-  });
-  container.querySelectorAll('.del-btn').forEach(el=>{
-    el.addEventListener('click', ()=>deleteNewItem(el.dataset.id));
-  });
+  container.querySelectorAll('.status-badge').forEach(el=>{ el.addEventListener('click', ()=>cycleStatus(el.dataset.id)); });
+  container.querySelectorAll('.del-btn').forEach(el=>{ el.addEventListener('click', ()=>deleteNewItem(el.dataset.id)); });
 }
 const STATUS_CYCLE = ['진행중','완료','보류','취소'];
 async function cycleStatus(id){
@@ -1314,9 +697,7 @@ function selectDate(dStr){
   }
   viewMode = 'date';
   currentDate = dStr;
-  document.querySelectorAll('.date-item').forEach(el=>{
-    el.classList.toggle('active', el.dataset.date===dStr);
-  });
+  document.querySelectorAll('.date-item').forEach(el=>{ el.classList.toggle('active', el.dataset.date===dStr); });
   document.getElementById('risk-nav').classList.remove('active');
   document.getElementById('view-title').textContent = fmtShort(dStr)+' 주간 TO DO';
   document.getElementById('view-meta').textContent = `${dStr} (${fmtWeekday(dStr)}) 기준 · ${(byDate[dStr]||[]).length}건`;
@@ -1330,10 +711,7 @@ function selectDate(dStr){
 function renderCategoryView(items){
   const content = document.getElementById('content');
   content.innerHTML = '';
-  if(items.length===0){
-    content.innerHTML = `<div class="empty-state"><div class="big">🗂️</div>해당 조건에 맞는 항목이 없습니다.</div>`;
-    return;
-  }
+  if(items.length===0){ content.innerHTML = `<div class="empty-state"><div class="big">🗂️</div>해당 조건에 맞는 항목이 없습니다.</div>`; return; }
   const grouped = groupByCategory(items);
   Object.keys(grouped).forEach(cat=>{
     const catItems = grouped[cat];
@@ -1372,11 +750,7 @@ function renderSearchResults(term){
   document.getElementById('view-title').textContent = '검색 결과';
   const lower = term.toLowerCase();
   const all = getAllItems();
-  let results = all.filter(r=>
-    (r.content && r.content.toLowerCase().includes(lower)) ||
-    (r.note && r.note.toLowerCase().includes(lower)) ||
-    (r.category && r.category.toLowerCase().includes(lower))
-  );
+  let results = all.filter(r=> (r.content && r.content.toLowerCase().includes(lower)) || (r.note && r.note.toLowerCase().includes(lower)) || (r.category && r.category.toLowerCase().includes(lower)) );
   results = applyStatusFilter(results);
   currentViewItems = results;
   document.getElementById('view-meta').textContent = `"${term}" 검색 · ${results.length}건 (전체 기간)`;
@@ -1384,10 +758,7 @@ function renderSearchResults(term){
   renderSummary(results);
   const content = document.getElementById('content');
   content.innerHTML = '';
-  if(results.length===0){
-    content.innerHTML = `<div class="empty-state"><div class="big">🔍</div>"${escapeHtml(term)}"에 대한 검색 결과가 없습니다.</div>`;
-    return;
-  }
+  if(results.length===0){ content.innerHTML = `<div class="empty-state"><div class="big">🔍</div>"${escapeHtml(term)}"에 대한 검색 결과가 없습니다.</div>`; return; }
   const byD = {};
   results.forEach(r=>{ if(!byD[r.date]) byD[r.date]=[]; byD[r.date].push(r); });
   Object.keys(byD).sort().reverse().forEach(dStr=>{
@@ -1400,9 +771,7 @@ function renderSearchResults(term){
       </div>
       <div class="rows"></div>
     `;
-    block.querySelector('h3').addEventListener('click', ()=>{
-      document.getElementById('search').value=''; searchTerm=''; selectDate(dStr);
-    });
+    block.querySelector('h3').addEventListener('click', ()=>{ document.getElementById('search').value=''; searchTerm=''; selectDate(dStr); });
     const rowsEl = block.querySelector('.rows');
     byD[dStr].forEach(it=>{
       const row = document.createElement('div');
@@ -1429,10 +798,7 @@ function renderRiskView(){
   document.getElementById('insight-box').style.display = 'none';
   const all = getAllItems();
   const byId = {}; all.forEach(it=>byId[it.id]=it);
-  let riskThreads = Object.values(aging.threads)
-    .filter(t=>t.active && t.weeksOpen>=3)
-    .map(t=>byId[t.lastItemId])
-    .filter(Boolean);
+  let riskThreads = Object.values(aging.threads).filter(t=>t.active && t.weeksOpen>=3).map(t=>byId[t.lastItemId]).filter(Boolean);
   riskThreads = applyStatusFilter(riskThreads);
   riskThreads.sort((a,b)=> (aging.weeksOpenById[b.id]||0) - (aging.weeksOpenById[a.id]||0));
   currentViewItems = riskThreads;
@@ -1440,10 +806,7 @@ function renderRiskView(){
   renderSummary(riskThreads);
   const content = document.getElementById('content');
   content.innerHTML = '';
-  if(riskThreads.length===0){
-    content.innerHTML = `<div class="empty-state"><div class="big">✅</div>3주 이상 지연된 이슈가 없습니다.</div>`;
-    return;
-  }
+  if(riskThreads.length===0){ content.innerHTML = `<div class="empty-state"><div class="big">✅</div>3주 이상 지연된 이슈가 없습니다.</div>`; return; }
   const wrap = document.createElement('div');
   wrap.className = 'category-block';
   riskThreads.forEach(it=>{
@@ -1525,7 +888,6 @@ document.getElementById('undo-bulk-btn').addEventListener('click', async ()=>{
   toast(`${count}건 되돌렸습니다`);
 });
 
-// full reset: clear ALL status overrides, restoring every item to its original archive/entry status
 document.getElementById('reset-overrides-btn').addEventListener('click', async ()=>{
   const n = Object.keys(overrides).length;
   if(n === 0){ toast('되돌릴 상태 변경 내역이 없습니다'); return; }
@@ -1546,7 +908,6 @@ document.getElementById('reset-overrides-btn').addEventListener('click', async (
   toast(`${n}건의 상태 변경이 초기화되었습니다`);
 });
 
-// ---- add item modal ----
 const overlay = document.getElementById('overlay');
 function openModal(prefillDate){
   document.getElementById('f-date').value = prefillDate || todayStr();
@@ -1574,10 +935,7 @@ document.getElementById('modal-save').addEventListener('click', async ()=>{
   const note = document.getElementById('f-note').value.trim();
   if(!date || !content){ await showAlert('날짜와 내용은 필수입니다.'); return; }
   const maxNo = Math.max(0, ...getAllItems().filter(i=>i.date===date && i.category===category).map(i=>i.no||0));
-  newItems.push({
-    id: 'new-' + Date.now() + '-' + Math.floor(Math.random()*1000),
-    date, category, status, no: maxNo+1, content, note, createdAt: new Date().toISOString()
-  });
+  newItems.push({ id: 'new-' + Date.now() + '-' + Math.floor(Math.random()*1000), date, category, status, no: maxNo+1, content, note, createdAt: new Date().toISOString() });
   await saveStore();
   rebuildIndex();
   renderSidebar();
@@ -1587,19 +945,15 @@ document.getElementById('modal-save').addEventListener('click', async ()=>{
   toast('저장되었습니다');
 });
 
-// ---- carry-forward modal ----
 const overlay2 = document.getElementById('overlay2');
 function openCarryModal(){
   const sourceDate = dates[dates.length-1];
   const openItems = (byDate[sourceDate]||[]).filter(it=>it.status==='진행중');
-  document.getElementById('carry-sub').textContent = openItems.length
-    ? `최근 기록일(${fmtShort(sourceDate)}) 기준 "진행중" 항목 ${openItems.length}건 중 가져올 항목을 선택하세요.`
-    : '최근 기록에 "진행중" 항목이 없습니다.';
+  document.getElementById('carry-sub').textContent = openItems.length ? `최근 기록일(${fmtShort(sourceDate)}) 기준 "진행중" 항목 ${openItems.length}건 중 가져올 항목을 선택하세요.` : '최근 기록에 "진행중" 항목이 없습니다.';
   const listEl = document.getElementById('carry-list');
   listEl.innerHTML = '';
-  if(openItems.length===0){
-    listEl.innerHTML = `<div id="carry-empty">가져올 수 있는 진행중 항목이 없습니다.</div>`;
-  } else {
+  if(openItems.length===0){ listEl.innerHTML = `<div id="carry-empty">가져올 수 있는 진행중 항목이 없습니다.</div>`; }
+  else {
     openItems.forEach(it=>{
       const row = document.createElement('label');
       row.className = 'carry-item';
@@ -1631,11 +985,7 @@ document.getElementById('carry-save').addEventListener('click', async ()=>{
     const src = byId[id];
     if(!src) return;
     const maxNo = Math.max(0, ...getAllItems().filter(x=>x.date===targetDate && x.category===src.category).map(x=>x.no||0));
-    newItems.push({
-      id: 'new-' + Date.now() + '-' + i + '-' + Math.floor(Math.random()*1000),
-      date: targetDate, category: src.category, status: '진행중', no: maxNo+1,
-      content: src.content, note: src.note, createdAt: new Date().toISOString()
-    });
+    newItems.push({ id: 'new-' + Date.now() + '-' + i + '-' + Math.floor(Math.random()*1000), date: targetDate, category: src.category, status: '진행중', no: maxNo+1, content: src.content, note: src.note, createdAt: new Date().toISOString() });
   });
   await saveStore();
   rebuildIndex();
@@ -1646,28 +996,15 @@ document.getElementById('carry-save').addEventListener('click', async ()=>{
   toast(`${checked.length}건 가져왔습니다`);
 });
 
-// ---- mobile sidebar toggle ----
-function openSidebar(){
-  document.getElementById('sidebar').classList.add('open');
-  document.getElementById('sidebar-backdrop').classList.add('show');
-}
-function closeSidebar(){
-  document.getElementById('sidebar').classList.remove('open');
-  document.getElementById('sidebar-backdrop').classList.remove('show');
-}
+function openSidebar(){ document.getElementById('sidebar').classList.add('open'); document.getElementById('sidebar-backdrop').classList.add('show'); }
+function closeSidebar(){ document.getElementById('sidebar').classList.remove('open'); document.getElementById('sidebar-backdrop').classList.remove('show'); }
 document.getElementById('hamburger-btn').addEventListener('click', openSidebar);
 document.getElementById('sidebar-backdrop').addEventListener('click', closeSidebar);
-// auto-close the drawer after picking a date on mobile
-document.getElementById('date-list').addEventListener('click', (e)=>{
-  if(window.innerWidth <= 768 && e.target.closest('.date-item')) closeSidebar();
-});
-document.getElementById('risk-nav').addEventListener('click', ()=>{
-  if(window.innerWidth <= 768) closeSidebar();
-});
+document.getElementById('date-list').addEventListener('click', (e)=>{ if(window.innerWidth <= 768 && e.target.closest('.date-item')) closeSidebar(); });
+document.getElementById('risk-nav').addEventListener('click', ()=>{ if(window.innerWidth <= 768) closeSidebar(); });
 
 document.getElementById('fab-add-btn').addEventListener('click', ()=>openModal(currentDate));
 
-// ---- Smart quick add (free, rule-based — no API, no cost) ----
 document.getElementById('ai-quick-btn').addEventListener('click', ()=>{
   document.getElementById('ai-quick-input').style.display = '';
   document.getElementById('ai-quick-error').style.display = 'none';
@@ -1683,7 +1020,6 @@ function addDays(date, n){ const d = new Date(date); d.setDate(d.getDate()+n); r
 function toDateStr(d){ return d.toISOString().slice(0,10); }
 
 function parseRelativeDate(text, today){
-  // explicit M/D or M월 D일
   let m = text.match(/(\d{1,2})\s*[\/월]\s*(\d{1,2})\s*일?/);
   if(m){
     let year = today.getFullYear();
@@ -1699,7 +1035,6 @@ function parseRelativeDate(text, today){
   if(m) return addDays(today, parseInt(m[1])*7);
   m = text.match(/(\d+)\s*일\s*(?:후|뒤|안에)/);
   if(m) return addDays(today, parseInt(m[1]));
-  // "다음주 화요일" / "다음 주 금요일"
   m = text.match(/다음\s*주\s*([월화수목금토일])요?일?/);
   if(m){
     const target = WEEKDAY_NAMES[m[1]];
@@ -1707,58 +1042,49 @@ function parseRelativeDate(text, today){
     let cand = addDays(base, (target - base.getDay() + 7) % 7);
     return cand;
   }
-  // "화요일까지" / "이번주 금요일" — nearest upcoming occurrence
   m = text.match(/(?:이번\s*주\s*)?([월화수목금토일])요일/);
   if(m){
     const target = WEEKDAY_NAMES[m[1]];
     let diff = (target - today.getDay() + 7) % 7;
-    if(diff === 0) diff = 7; // treat as next occurrence, not today
+    if(diff === 0) diff = 7;
     return addDays(today, diff);
   }
-  return today; // fallback
+  return today;
 }
-
 function parseStatus(text){
   if(/완료/.test(text)) return '완료';
   if(/보류/.test(text)) return '보류';
   if(/취소/.test(text)) return '취소';
   return '진행중';
 }
-
 function parseCategory(text, existingCats){
   const lower = text.toLowerCase();
   for(const cat of existingCats){
     if(!cat) continue;
     if(lower.includes(cat.toLowerCase())) return cat;
   }
-  // common shorthand matches
   if(/클레임|claim/i.test(text)) return existingCats.find(c=>/claim/i.test(c)) || 'CLAIM';
   if(/f\/?w|겨울|가을/i.test(text)) return existingCats.find(c=>/f\/w/i.test(c)) || '';
   if(/s\/?s|봄|여름/i.test(text)) return existingCats.find(c=>/s\/s/i.test(c)) || '';
   return '';
 }
-
 document.getElementById('ai-quick-run').addEventListener('click', ()=>{
   const text = document.getElementById('ai-quick-text').value.trim();
   if(!text) return;
   const today = new Date();
   const existingCats = [...new Set(getAllItems().map(i=>i.category).filter(Boolean))];
-
   const date = parseRelativeDate(text, today);
   const status = parseStatus(text);
   const category = parseCategory(text, existingCats);
-
   document.getElementById('f-date').value = toDateStr(date);
   document.getElementById('f-status').value = status;
   document.getElementById('f-category').value = category;
   document.getElementById('f-content').value = text;
   document.getElementById('f-note').value = '';
-
   document.getElementById('ai-quick-input').style.display = 'none';
   toast('자동 인식했습니다 — 확인 후 저장해주세요');
 });
 
-// ==================== Setup / connection flow ====================
 document.getElementById('setup-connect').addEventListener('click', async ()=>{
   const owner = document.getElementById('gh-owner').value.trim();
   const repo = document.getElementById('gh-repo').value.trim();
@@ -1801,17 +1127,10 @@ document.getElementById('gh-settings-btn').addEventListener('click', ()=>{
 
 async function startApp(){
   await loadArchive();
-  try{
-    await loadStore();
-  }catch(e){
-    return; // error already shown via sync indicator
-  }
+  try{ await loadStore(); }catch(e){ return; }
   try{
     const saved = localStorage.getItem('last_bulk_action');
-    if(saved){
-      lastBulkAction = JSON.parse(saved);
-      document.getElementById('undo-bulk-btn').style.display = '';
-    }
+    if(saved){ lastBulkAction = JSON.parse(saved); document.getElementById('undo-bulk-btn').style.display = ''; }
   }catch(e){}
   rebuildIndex();
   renderSidebar();
@@ -1820,15 +1139,9 @@ async function startApp(){
 
 (function init(){
   const cfg = loadGhConfig();
-  if(cfg){
-    ghConfig = cfg;
-    document.getElementById('setup-overlay').style.display = 'none';
-    startApp();
-  } else {
-    document.getElementById('setup-overlay').style.display = 'flex';
-  }
+  if(cfg){ ghConfig = cfg; document.getElementById('setup-overlay').style.display = 'none'; startApp(); }
+  else { document.getElementById('setup-overlay').style.display = 'flex'; }
 })();
-
 </script>
 </body>
 </html>

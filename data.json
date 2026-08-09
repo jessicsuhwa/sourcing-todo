@@ -178,14 +178,14 @@
       "category": "2026 F/W",
       "status": "진행중",
       "no": 1,
-      "content": "~8/25 루이승 벤더 결제조건 변경 및 26년 상반기 은행수수료 송금 요청",
+      "content": "~8/25 RUISEUNG 벤더 결제조건 변경 및 26년 상반기 은행수수료 송금 요청",
       "note": "",
       "assignees": [
         "성연재"
       ],
       "createdBy": "성연재",
       "createdAt": "2026-08-07T08:20:43.668Z",
-      "updatedAt": "2026-08-09T00:58:45.425Z"
+      "updatedAt": "2026-08-09T23:49:47.570Z"
     }
   ],
   "overrides": {
@@ -2135,5 +2135,29 @@
     "CLAIM",
     "ETC"
   ],
-  "updatedAt": "2026-08-09T01:38:56.265Z"
+  "vendorList": [
+    "CG",
+    "HEBEI",
+    "IDK",
+    "KANGLE",
+    "KINGLAND",
+    "LFBD",
+    "RC",
+    "SINOEYES",
+    "YAXING",
+    "PEAK",
+    "QMY",
+    "BEN",
+    "ROSUN",
+    "JC",
+    "COBALT",
+    "MAODU",
+    "RUISEUNG",
+    "MJ",
+    "TIANJIN",
+    "GUANGQI",
+    "QISONG",
+    "ATHAN"
+  ],
+  "updatedAt": "2026-08-09T23:49:47.570Z"
 }

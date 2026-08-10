@@ -209,6 +209,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-08-10T00:16:26.902Z"
+    },
+    {
+      "id": "new-1786353919605-453",
+      "date": "2026-08-11",
+      "category": "2026 F/W",
+      "status": "진행중",
+      "no": 1,
+      "content": "TENO POLYBAG 포장재신고",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-08-10T09:25:19.605Z"
     }
   ],
   "overrides": {
@@ -2193,5 +2207,5 @@
     "ATHAN",
     "QUICK SHOW"
   ],
-  "updatedAt": "2026-08-10T09:21:08.912Z"
+  "updatedAt": "2026-08-10T09:25:19.606Z"
 }

@@ -186,6 +186,21 @@
       "createdBy": "성연재",
       "createdAt": "2026-08-07T08:20:43.668Z",
       "updatedAt": "2026-08-09T23:49:47.570Z"
+    },
+    {
+      "id": "new-1786320986902-977",
+      "date": "2026-08-12",
+      "category": "오더 배분 및 라인 북킹 전략",
+      "status": "진행중",
+      "no": 1,
+      "content": "중국출장 8/24~27 샘플실에 연결된 공장 Sorcing",
+      "note": "",
+      "assignees": [
+        "정수화",
+        "김정보"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-08-10T00:16:26.902Z"
     }
   ],
   "overrides": {
@@ -2160,5 +2175,5 @@
     "ATHAN",
     "QUICK SHOW"
   ],
-  "updatedAt": "2026-08-09T23:50:09.663Z"
+  "updatedAt": "2026-08-10T00:16:26.902Z"
 }

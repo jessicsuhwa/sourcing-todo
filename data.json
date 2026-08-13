@@ -237,6 +237,20 @@
       ],
       "createdBy": "성연재",
       "createdAt": "2026-08-11T14:48:25.334Z"
+    },
+    {
+      "id": "new-1786586712057-776",
+      "date": "2026-08-13",
+      "category": "CG, IDK 8월 납기건 확인",
+      "status": "진행중",
+      "no": 1,
+      "content": "CG, IDK 8월 납기건 확인",
+      "note": "",
+      "assignees": [
+        "강규화"
+      ],
+      "createdBy": "강규화",
+      "createdAt": "2026-08-13T02:05:12.057Z"
     }
   ],
   "overrides": {
@@ -2235,5 +2249,5 @@
     "QUICK SHOW"
   ],
   "pins": {},
-  "updatedAt": "2026-08-12T05:56:21.235Z"
+  "updatedAt": "2026-08-13T02:05:12.057Z"
 }

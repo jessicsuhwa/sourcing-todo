@@ -259,14 +259,15 @@
       "category": "",
       "status": "진행중",
       "no": 1,
-      "content": "* New Factory sourcing and supplier evaluation\n* On-site inspection of Teno finished products => Review quality, production status",
-      "note": "",
+      "content": "TENO 검품 / 신규공장 소싱",
+      "note": "* New Factory sourcing and supplier evaluation\n* On-site inspection of Teno finished products => Review quality, production status",
       "assignees": [
         "정수화",
         "김정보"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-08-13T06:36:49.182Z"
+      "createdAt": "2026-08-13T06:36:49.182Z",
+      "updatedAt": "2026-08-13T06:37:30.211Z"
     }
   ],
   "overrides": {
@@ -2275,5 +2276,5 @@
     "QUICK SHOW"
   ],
   "pins": {},
-  "updatedAt": "2026-08-13T06:36:49.182Z"
+  "updatedAt": "2026-08-13T06:37:30.211Z"
 }

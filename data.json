@@ -257,18 +257,17 @@
     {
       "id": "new-1786603009182-248",
       "date": "2026-08-24",
-      "category": "",
+      "category": "2026 F/W",
       "status": "진행중",
       "no": 1,
-      "content": "TENO 검품 / 신규공장 소싱",
+      "content": "TENO QISONG 촬영샘플 입고일 확인 => 1차 8/27일 발송 , 2차 8/29일 발송",
       "note": "* New Factory sourcing and supplier evaluation\n* On-site inspection of Teno finished products => Review quality, production status",
       "assignees": [
-        "정수화",
         "김정보"
       ],
       "createdBy": "정수화",
       "createdAt": "2026-08-13T06:36:49.182Z",
-      "updatedAt": "2026-08-13T06:37:30.211Z"
+      "updatedAt": "2026-08-13T06:38:43.428Z"
     }
   ],
   "overrides": {
@@ -2279,5 +2278,5 @@
     "QUICK SHOW"
   ],
   "pins": {},
-  "updatedAt": "2026-08-13T06:38:15.466Z"
+  "updatedAt": "2026-08-13T06:38:43.428Z"
 }

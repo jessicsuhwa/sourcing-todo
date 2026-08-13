@@ -156,13 +156,13 @@
       "category": "2026 F/W",
       "status": "진행중",
       "no": 3,
-      "content": "TENO POLY BAG 샘플 수령 8/13",
+      "content": "TENO POLY BAG 샘플 수령 8/15",
       "note": "",
       "createdAt": "2026-08-06T08:30:13.939Z",
       "assignees": [
         "정수화"
       ],
-      "updatedAt": "2026-08-10T00:30:45.102Z"
+      "updatedAt": "2026-08-13T02:11:55.871Z"
     },
     {
       "id": "new-1786082075463-95",
@@ -2249,5 +2249,5 @@
     "QUICK SHOW"
   ],
   "pins": {},
-  "updatedAt": "2026-08-13T02:05:12.057Z"
+  "updatedAt": "2026-08-13T02:11:55.871Z"
 }

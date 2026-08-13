@@ -252,6 +252,21 @@
       ],
       "createdBy": "강규화",
       "createdAt": "2026-08-13T02:05:12.057Z"
+    },
+    {
+      "id": "new-1786603009182-248",
+      "date": "2026-08-24",
+      "category": "",
+      "status": "진행중",
+      "no": 1,
+      "content": "* New Factory sourcing and supplier evaluation\n* On-site inspection of Teno finished products => Review quality, production status",
+      "note": "",
+      "assignees": [
+        "정수화",
+        "김정보"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-08-13T06:36:49.182Z"
     }
   ],
   "overrides": {
@@ -2260,5 +2275,5 @@
     "QUICK SHOW"
   ],
   "pins": {},
-  "updatedAt": "2026-08-13T06:36:18.507Z"
+  "updatedAt": "2026-08-13T06:36:49.182Z"
 }

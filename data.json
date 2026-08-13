@@ -283,6 +283,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-08-13T06:39:46.169Z"
+    },
+    {
+      "id": "new-1786603961401-470",
+      "date": "2026-08-18",
+      "category": "",
+      "status": "진행중",
+      "no": 1,
+      "content": "C2M 2.0 Version 관련 Meeting with Dilip",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-08-13T06:52:41.401Z"
     }
   ],
   "overrides": {
@@ -2294,5 +2308,5 @@
     "QUICK SHOW"
   ],
   "pins": {},
-  "updatedAt": "2026-08-13T06:40:04.232Z"
+  "updatedAt": "2026-08-13T06:52:41.401Z"
 }

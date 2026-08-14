@@ -297,6 +297,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-08-13T06:52:41.401Z"
+    },
+    {
+      "id": "new-1786687250851-923",
+      "date": "2026-08-18",
+      "category": "오더 배분 및 라인 북킹 전략",
+      "status": "진행중",
+      "no": 1,
+      "content": "NEW VENDER SOURCING_알리바바 Serching",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-08-14T06:00:50.851Z"
     }
   ],
   "overrides": {
@@ -2308,5 +2322,5 @@
     "QUICK SHOW"
   ],
   "pins": {},
-  "updatedAt": "2026-08-13T06:52:41.401Z"
+  "updatedAt": "2026-08-14T06:00:50.851Z"
 }

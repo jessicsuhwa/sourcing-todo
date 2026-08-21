@@ -340,6 +340,21 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-08-20T23:29:08.641Z"
+    },
+    {
+      "id": "new-1787271297708-14",
+      "date": "2026-08-24",
+      "category": "",
+      "status": "진행중",
+      "no": 2,
+      "content": "C2M 2.0 버젼 ORDER -TEST (HTN , HTT)",
+      "note": "",
+      "assignees": [
+        "정수화",
+        "강규화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-08-21T00:14:57.708Z"
     }
   ],
   "overrides": {
@@ -2358,5 +2373,5 @@
     "new-1786687250851-923": true,
     "new-1786603009182-248": true
   },
-  "updatedAt": "2026-08-20T23:29:08.641Z"
+  "updatedAt": "2026-08-21T00:14:57.708Z"
 }

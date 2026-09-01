@@ -465,12 +465,13 @@
       "status": "진행중",
       "no": 1,
       "content": "C2M TEST ORDDR_TEENS sizes 130 and 180",
-      "note": "",
+      "note": "14590-131-063-09\n14590-133-607-09\n14590-133-603-09\n14590-093-603-09",
       "assignees": [
         "강규화"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-09-01T10:28:26.769Z"
+      "createdAt": "2026-09-01T10:28:26.769Z",
+      "updatedAt": "2026-09-01T10:30:39.121Z"
     }
   ],
   "overrides": {
@@ -2500,5 +2501,9 @@
   },
   "pinnedNote": "매주 월요일 매장의견 UPDATE ",
   "pinnedGoal": "",
-  "updatedAt": "2026-09-01T10:28:26.769Z"
+  "assigneeEmails": {
+    "강규화": "kyuhwakang@brandedlifestyle.com",
+    "성연재": "yeonjaeseong@brandedlifestyle.com"
+  },
+  "updatedAt": "2026-09-01T10:30:39.121Z"
 }

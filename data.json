@@ -429,6 +429,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-08-31T10:56:12.697Z"
+    },
+    {
+      "id": "new-1788256765130-938",
+      "date": "2026-09-02",
+      "category": "2026 F/W",
+      "status": "진행중",
+      "no": 2,
+      "content": "HTN , HTT 26F/W 9월달 입고분 LIST UP 해서 바잉팀 전달",
+      "note": "",
+      "assignees": [
+        "성연재"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-01T09:59:25.130Z"
     }
   ],
   "overrides": {
@@ -2458,5 +2472,5 @@
   },
   "pinnedNote": "매주 월요일 매장의견 UPDATE ",
   "pinnedGoal": "",
-  "updatedAt": "2026-09-01T09:22:25.648Z"
+  "updatedAt": "2026-09-01T09:59:25.131Z"
 }

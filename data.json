@@ -443,6 +443,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-01T09:59:25.130Z"
+    },
+    {
+      "id": "new-1788256858237-739",
+      "date": "2026-09-01",
+      "category": "",
+      "status": "진행중",
+      "no": 4,
+      "content": "26FALL DENIM QUALITY 관련 매장 문의_차주",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-01T10:00:58.237Z"
     }
   ],
   "overrides": {
@@ -2472,5 +2486,5 @@
   },
   "pinnedNote": "매주 월요일 매장의견 UPDATE ",
   "pinnedGoal": "",
-  "updatedAt": "2026-09-01T09:59:25.131Z"
+  "updatedAt": "2026-09-01T10:00:58.238Z"
 }

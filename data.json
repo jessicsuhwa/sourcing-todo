@@ -472,6 +472,20 @@
       "createdBy": "정수화",
       "createdAt": "2026-09-01T10:28:26.769Z",
       "updatedAt": "2026-09-01T10:30:39.987Z"
+    },
+    {
+      "id": "new-1788309558677-713",
+      "date": "2026-09-01",
+      "category": "ETC",
+      "status": "진행중",
+      "no": 1,
+      "content": "10570-131-408-69 , 10570-131-410-69 사이즈별 편차 확인 요청",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-02T00:39:18.678Z"
     }
   ],
   "overrides": {
@@ -2505,5 +2519,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-02T00:05:38.266Z"
+  "updatedAt": "2026-09-02T00:39:18.678Z"
 }

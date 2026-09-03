@@ -514,6 +514,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-03T00:44:27.797Z"
+    },
+    {
+      "id": "new-1788396315185-712",
+      "date": "2026-09-03",
+      "category": "DILIP",
+      "status": "진행중",
+      "no": 3,
+      "content": "TENO 오더는 C2M 2.0 VERSION 으로 진행",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-03T00:45:15.185Z"
     }
   ],
   "overrides": {
@@ -2547,5 +2561,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-03T00:44:27.797Z"
+  "updatedAt": "2026-09-03T00:45:15.185Z"
 }

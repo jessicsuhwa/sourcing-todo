@@ -542,6 +542,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-03T00:50:51.896Z"
+    },
+    {
+      "id": "new-1788396726856-397",
+      "date": "2026-09-04",
+      "category": "2026 F/W",
+      "status": "진행중",
+      "no": 1,
+      "content": "9월분 납기 재확인",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-03T00:52:06.856Z"
     }
   ],
   "overrides": {
@@ -2577,5 +2591,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-03T00:51:24.930Z"
+  "updatedAt": "2026-09-03T00:52:06.856Z"
 }

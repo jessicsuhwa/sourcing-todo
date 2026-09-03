@@ -486,6 +486,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-02T00:39:18.678Z"
+    },
+    {
+      "id": "new-1788396240956-776",
+      "date": "2026-09-03",
+      "category": "DILIP",
+      "status": "진행중",
+      "no": 1,
+      "content": "TENO : 무신사 성적서",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-03T00:44:00.956Z"
     }
   ],
   "overrides": {
@@ -2519,5 +2533,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-02T00:39:18.678Z"
+  "updatedAt": "2026-09-03T00:44:00.957Z"
 }

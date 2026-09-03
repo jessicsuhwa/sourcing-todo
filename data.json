@@ -500,6 +500,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-03T00:44:00.956Z"
+    },
+    {
+      "id": "new-1788396267797-914",
+      "date": "2026-09-03",
+      "category": "DILIP",
+      "status": "진행중",
+      "no": 2,
+      "content": "JC DENIM ORDER TEST",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-03T00:44:27.797Z"
     }
   ],
   "overrides": {
@@ -2533,5 +2547,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-03T00:44:00.957Z"
+  "updatedAt": "2026-09-03T00:44:27.797Z"
 }

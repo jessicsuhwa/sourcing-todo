@@ -528,6 +528,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-03T00:45:15.185Z"
+    },
+    {
+      "id": "new-1788396651896-358",
+      "date": "2026-09-15",
+      "category": "ETC",
+      "status": "진행중",
+      "no": 1,
+      "content": "치송 payment 조건 변경확인",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-03T00:50:51.896Z"
     }
   ],
   "overrides": {
@@ -2561,5 +2575,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-03T00:45:15.185Z"
+  "updatedAt": "2026-09-03T00:50:51.897Z"
 }

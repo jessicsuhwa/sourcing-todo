@@ -519,7 +519,7 @@
     },
     {
       "id": "new-1788396315185-712",
-      "date": "2026-09-03",
+      "date": "2026-09-09",
       "category": "DILIP",
       "status": "진행중",
       "no": 3,
@@ -530,7 +530,7 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-03T00:45:15.185Z",
-      "updatedAt": "2026-09-07T08:38:59.807Z"
+      "updatedAt": "2026-09-07T08:39:09.675Z"
     },
     {
       "id": "new-1788396651896-358",
@@ -2605,5 +2605,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-07T08:38:59.808Z"
+  "updatedAt": "2026-09-07T08:39:09.676Z"
 }

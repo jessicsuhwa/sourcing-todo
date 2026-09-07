@@ -346,7 +346,7 @@
       "id": "new-1787271297708-14",
       "date": "2026-09-01",
       "category": "",
-      "status": "진행중",
+      "status": "완료",
       "no": 2,
       "content": "C2M 2.0 버젼 ORDER -TEST (HTN , HTT)",
       "note": "C2M 2.0 TEST _ 10590-034-814 => ETD 9/2 Ferry , ETA 9/7 양산 \n14590-131-852-11 , 14590-138-852-11",
@@ -356,7 +356,7 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-08-21T00:14:57.708Z",
-      "updatedAt": "2026-09-01T09:22:25.166Z"
+      "updatedAt": "2026-09-07T08:39:33.777Z"
     },
     {
       "id": "new-1787273293011-676",
@@ -2606,5 +2606,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-07T08:39:21.628Z"
+  "updatedAt": "2026-09-07T08:39:33.777Z"
 }

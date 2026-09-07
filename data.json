@@ -475,7 +475,7 @@
     },
     {
       "id": "new-1788309558677-713",
-      "date": "2026-09-01",
+      "date": "2026-09-09",
       "category": "ETC",
       "status": "진행중",
       "no": 1,
@@ -485,7 +485,8 @@
         "정수화"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-09-02T00:39:18.678Z"
+      "createdAt": "2026-09-02T00:39:18.678Z",
+      "updatedAt": "2026-09-07T08:38:46.776Z"
     },
     {
       "id": "new-1788396240956-776",
@@ -2603,5 +2604,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-07T08:38:37.042Z"
+  "updatedAt": "2026-09-07T08:38:46.776Z"
 }

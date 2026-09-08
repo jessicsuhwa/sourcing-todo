@@ -562,6 +562,21 @@
       "createdBy": "정수화",
       "createdAt": "2026-09-03T00:52:06.856Z",
       "updatedAt": "2026-09-07T08:38:25.113Z"
+    },
+    {
+      "id": "new-1788861785184-958",
+      "date": "2026-09-09",
+      "category": "",
+      "status": "진행중",
+      "no": 1,
+      "content": "모자 케어라벨 , 택, 메인라벨 수령하기",
+      "note": "",
+      "assignees": [
+        "정수화",
+        "강규화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-08T10:03:05.184Z"
     }
   ],
   "overrides": {
@@ -2607,5 +2622,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-07T08:40:43.808Z"
+  "updatedAt": "2026-09-08T10:03:05.184Z"
 }

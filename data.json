@@ -578,6 +578,18 @@
       "createdBy": "정수화",
       "createdAt": "2026-09-08T10:03:05.184Z",
       "updatedAt": "2026-09-08T10:25:19.281Z"
+    },
+    {
+      "id": "new-1788863144562-879",
+      "date": "2026-09-10",
+      "category": "",
+      "status": "진행중",
+      "no": 1,
+      "content": "폴리백 발주 결제 올리가",
+      "note": "",
+      "assignees": [],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-08T10:25:44.562Z"
     }
   ],
   "overrides": {
@@ -2623,5 +2635,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-08T10:25:19.281Z"
+  "updatedAt": "2026-09-08T10:25:44.562Z"
 }

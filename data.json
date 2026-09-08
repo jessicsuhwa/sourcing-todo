@@ -569,14 +569,15 @@
       "category": "",
       "status": "진행중",
       "no": 1,
-      "content": "모자 케어라벨 , 택, 메인라벨 수령하기",
+      "content": "모자 케어라벨 , 택, 메인라벨 , 포리백 수령하기",
       "note": "",
       "assignees": [
         "정수화",
         "강규화"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-09-08T10:03:05.184Z"
+      "createdAt": "2026-09-08T10:03:05.184Z",
+      "updatedAt": "2026-09-08T10:25:19.281Z"
     }
   ],
   "overrides": {
@@ -2622,5 +2623,5 @@
     "강규화": "kyuhwakang@brandedlifestyle.com",
     "성연재": "yeonjaeseong@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-08T10:03:05.184Z"
+  "updatedAt": "2026-09-08T10:25:19.281Z"
 }

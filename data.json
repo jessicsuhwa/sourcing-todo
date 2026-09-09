@@ -590,6 +590,22 @@
       "assignees": [],
       "createdBy": "정수화",
       "createdAt": "2026-09-08T10:25:44.562Z"
+    },
+    {
+      "id": "new-1788936342108-678",
+      "date": "2026-09-11",
+      "category": "",
+      "status": "진행중",
+      "no": 5,
+      "content": "전사 AI 포털 개발 관련 자료 제출 요청",
+      "note": "",
+      "assignees": [
+        "정수화",
+        "강규화",
+        "성연재"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-09T06:45:42.108Z"
     }
   ],
   "overrides": {
@@ -2636,5 +2652,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-09T06:43:02.585Z"
+  "updatedAt": "2026-09-09T06:45:42.108Z"
 }

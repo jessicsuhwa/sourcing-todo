@@ -620,6 +620,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-10T01:12:11.298Z"
+    },
+    {
+      "id": "new-1789002732903-274",
+      "date": "2026-09-18",
+      "category": "",
+      "status": "진행중",
+      "no": 2,
+      "content": "1000억 플랜 (9/18일 금요일) 회의",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-10T01:12:12.903Z"
     }
   ],
   "overrides": {
@@ -2667,5 +2681,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-10T01:12:11.299Z"
+  "updatedAt": "2026-09-10T01:12:13.124Z"
 }

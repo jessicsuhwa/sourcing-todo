@@ -621,6 +621,21 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-10T01:12:11.298Z"
+    },
+    {
+      "id": "new-1789346659509-62",
+      "date": "2026-09-18",
+      "category": "2027 S/S",
+      "status": "진행중",
+      "no": 1,
+      "content": "가격 Quotation file",
+      "note": "",
+      "assignees": [
+        "정수화",
+        "강규화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-14T00:44:19.509Z"
     }
   ],
   "overrides": {
@@ -2671,5 +2686,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-14T00:41:18.075Z"
+  "updatedAt": "2026-09-14T00:44:19.510Z"
 }

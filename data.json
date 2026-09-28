@@ -667,6 +667,21 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-28T02:21:55.398Z"
+    },
+    {
+      "id": "new-1790562117161-301",
+      "date": "2026-10-02",
+      "category": "",
+      "status": "진행중",
+      "no": 2,
+      "content": "27 S/S QUOTATION FILE 보고 (틴즈/캐주얼)",
+      "note": "",
+      "assignees": [
+        "정수화",
+        "강규화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-28T02:21:57.161Z"
     }
   ],
   "overrides": {
@@ -2719,5 +2734,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-28T02:21:55.399Z"
+  "updatedAt": "2026-09-28T02:21:57.457Z"
 }

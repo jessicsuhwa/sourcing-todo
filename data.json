@@ -636,6 +636,21 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-14T00:44:19.509Z"
+    },
+    {
+      "id": "new-1790553916620-990",
+      "date": "2026-09-28",
+      "category": "2027 S/S",
+      "status": "진행중",
+      "no": 1,
+      "content": "27 SUMMER TECH PACK 발송",
+      "note": "",
+      "assignees": [
+        "정수화",
+        "강규화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-09-28T00:05:16.620Z"
     }
   ],
   "overrides": {
@@ -2688,5 +2703,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-27T23:56:32.147Z"
+  "updatedAt": "2026-09-28T00:05:16.620Z"
 }

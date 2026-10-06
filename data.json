@@ -739,6 +739,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-10-06T00:53:28.261Z"
+    },
+    {
+      "id": "new-1791248090410-53",
+      "date": "2026-10-06",
+      "category": "오더 배분 및 라인 북킹 전략",
+      "status": "진행중",
+      "no": 3,
+      "content": "업체소싱 2_ACCIO 활용한 우븐 , 데님업체 소싱 후에 11월 초에 출장예정",
+      "note": "",
+      "assignees": [
+        "박명월"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-06T00:54:50.410Z"
     }
   ],
   "overrides": {
@@ -2792,5 +2806,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T00:53:28.262Z"
+  "updatedAt": "2026-10-06T00:54:50.410Z"
 }

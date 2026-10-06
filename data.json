@@ -624,7 +624,7 @@
     },
     {
       "id": "new-1789346659509-62",
-      "date": "2026-09-28",
+      "date": "2026-10-07",
       "category": "2027 S/S",
       "status": "진행중",
       "no": 1,
@@ -636,7 +636,7 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-14T00:44:19.509Z",
-      "updatedAt": "2026-09-28T00:23:17.564Z"
+      "updatedAt": "2026-10-06T00:32:38.406Z"
     },
     {
       "id": "new-1790553916620-990",
@@ -2719,5 +2719,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-09-28T02:22:18.481Z"
+  "updatedAt": "2026-10-06T00:32:38.406Z"
 }

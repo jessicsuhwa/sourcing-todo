@@ -800,6 +800,20 @@
       "assignees": [],
       "createdBy": "정수화",
       "createdAt": "2026-10-06T01:17:16.707Z"
+    },
+    {
+      "id": "new-1791250339549-501",
+      "date": "2026-10-06",
+      "category": "2026 F/W",
+      "status": "진행중",
+      "no": 4,
+      "content": "JC 26 WINTER LC 오픈건",
+      "note": "",
+      "assignees": [
+        "성연재"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-06T01:32:19.549Z"
     }
   ],
   "overrides": {
@@ -2855,5 +2869,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T01:17:34.390Z"
+  "updatedAt": "2026-10-06T01:32:19.549Z"
 }

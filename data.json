@@ -668,6 +668,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-28T02:21:57.161Z"
+    },
+    {
+      "id": "new-1791247178104-962",
+      "date": "2026-10-06",
+      "category": "DILIP",
+      "status": "진행중",
+      "no": 3,
+      "content": "IDK DENIM KOTTI 검사리포트 확인 및 KATRI 보상관련확인",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-06T00:39:38.105Z"
     }
   ],
   "overrides": {
@@ -2720,5 +2734,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T00:38:33.434Z"
+  "updatedAt": "2026-10-06T00:39:38.105Z"
 }

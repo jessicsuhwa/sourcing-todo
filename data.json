@@ -709,10 +709,12 @@
       "content": "긴급_한국생산티셔츠업체 미팅 및 프린트 업체 미팅",
       "note": "",
       "assignees": [
-        "정수화"
+        "정수화",
+        "박명월"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-10-06T00:44:45.236Z"
+      "createdAt": "2026-10-06T00:44:45.236Z",
+      "updatedAt": "2026-10-06T00:55:10.058Z"
     },
     {
       "id": "new-1791247590355-697",
@@ -2806,5 +2808,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T00:54:50.410Z"
+  "updatedAt": "2026-10-06T00:55:10.058Z"
 }

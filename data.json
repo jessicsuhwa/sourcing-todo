@@ -770,6 +770,20 @@
       "createdBy": "정수화",
       "createdAt": "2026-10-06T00:59:32.019Z",
       "updatedAt": "2026-10-06T00:59:43.176Z"
+    },
+    {
+      "id": "new-1791249066298-578",
+      "date": "2026-10-06",
+      "category": "2026 F/W",
+      "status": "진행중",
+      "no": 3,
+      "content": "SPOT_CG 인디고 기모 T-SHIRT _10590-031-823 납기및단가 확인",
+      "note": "",
+      "assignees": [
+        "박명월"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-06T01:11:06.298Z"
     }
   ],
   "overrides": {
@@ -2823,5 +2837,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T00:59:43.176Z"
+  "updatedAt": "2026-10-06T01:11:06.298Z"
 }

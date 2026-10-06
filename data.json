@@ -755,6 +755,18 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-10-06T00:54:50.410Z"
+    },
+    {
+      "id": "new-1791248372019-899",
+      "date": "2026-10-06",
+      "category": "2026 F/W",
+      "status": "진행중",
+      "no": 2,
+      "content": "SPOT_스웨터 2스타일_LITA",
+      "note": "",
+      "assignees": [],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-06T00:59:32.019Z"
     }
   ],
   "overrides": {
@@ -2808,5 +2820,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T00:56:23.302Z"
+  "updatedAt": "2026-10-06T00:59:32.020Z"
 }

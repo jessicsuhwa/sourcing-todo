@@ -814,6 +814,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-10-06T01:32:19.549Z"
+    },
+    {
+      "id": "new-1791250864495-404",
+      "date": "2026-10-06",
+      "category": "",
+      "status": "진행중",
+      "no": 1,
+      "content": "입고일정표 자료사용_입고일정표 또는 WEB 버전",
+      "note": "",
+      "assignees": [
+        "성연재"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-06T01:41:04.495Z"
     }
   ],
   "overrides": {
@@ -2869,5 +2883,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T01:32:19.549Z"
+  "updatedAt": "2026-10-06T01:41:04.495Z"
 }

@@ -762,14 +762,14 @@
       "category": "2026 F/W",
       "status": "진행중",
       "no": 2,
-      "content": "SPOT_스웨터 2스타일_LITA",
+      "content": "SPOT_스웨터 2스타일_Risen",
       "note": "",
       "assignees": [
         "박명월"
       ],
       "createdBy": "정수화",
       "createdAt": "2026-10-06T00:59:32.019Z",
-      "updatedAt": "2026-10-06T00:59:43.176Z"
+      "updatedAt": "2026-10-06T01:13:38.711Z"
     },
     {
       "id": "new-1791249066298-578",
@@ -2838,5 +2838,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T01:13:30.248Z"
+  "updatedAt": "2026-10-06T01:13:38.711Z"
 }

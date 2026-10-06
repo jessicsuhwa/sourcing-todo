@@ -567,7 +567,7 @@
     {
       "id": "new-1788861785184-958",
       "date": "2026-10-06",
-      "category": "",
+      "category": "2026 F/W",
       "status": "진행중",
       "no": 1,
       "content": "모자 케어라벨 , 택, 메인라벨 , 포리백 수령하기",
@@ -578,7 +578,7 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-09-08T10:03:05.184Z",
-      "updatedAt": "2026-10-06T00:38:06.623Z"
+      "updatedAt": "2026-10-06T00:40:13.358Z"
     },
     {
       "id": "new-1788863144562-879",
@@ -2735,5 +2735,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T00:39:58.707Z"
+  "updatedAt": "2026-10-06T00:40:13.358Z"
 }

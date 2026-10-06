@@ -787,6 +787,18 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-10-06T01:11:06.298Z"
+    },
+    {
+      "id": "new-1791249436707-708",
+      "date": "2026-10-06",
+      "category": "TENO",
+      "status": "진행중",
+      "no": 2,
+      "content": "QISONG 은 앞으로 SHIPMENT SAMPLE 사무실로 수령 안하고 , 물류에서 수령하는 걸로 (단 RE-ORDER 는 제외)",
+      "note": "",
+      "assignees": [],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-06T01:17:16.707Z"
     }
   ],
   "overrides": {
@@ -2842,5 +2854,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T01:15:51.553Z"
+  "updatedAt": "2026-10-06T01:17:16.707Z"
 }

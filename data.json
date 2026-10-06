@@ -699,6 +699,20 @@
       "createdBy": "정수화",
       "createdAt": "2026-10-06T00:42:27.378Z",
       "updatedAt": "2026-10-06T00:43:05.596Z"
+    },
+    {
+      "id": "new-1791247485236-91",
+      "date": "2026-10-06",
+      "category": "DILIP",
+      "status": "진행중",
+      "no": 4,
+      "content": "긴급_한국생산티셔츠업체 미팅 및 프린트 업체 미팅",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-06T00:44:45.236Z"
     }
   ],
   "overrides": {
@@ -2752,5 +2766,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T00:43:06.585Z"
+  "updatedAt": "2026-10-06T00:44:45.236Z"
 }

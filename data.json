@@ -373,7 +373,7 @@
     },
     {
       "id": "new-1788173425919-645",
-      "date": "2026-09-28",
+      "date": "2026-10-06",
       "category": "2026 F/W",
       "status": "진행중",
       "no": 1,
@@ -384,7 +384,7 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-08-31T10:50:25.919Z",
-      "updatedAt": "2026-09-28T00:23:10.222Z"
+      "updatedAt": "2026-10-06T00:38:33.433Z"
     },
     {
       "id": "new-1788173470898-913",
@@ -2720,5 +2720,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T00:38:20.799Z"
+  "updatedAt": "2026-10-06T00:38:33.434Z"
 }

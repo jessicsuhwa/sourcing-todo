@@ -725,6 +725,20 @@
       "assignees": [],
       "createdBy": "정수화",
       "createdAt": "2026-10-06T00:46:30.355Z"
+    },
+    {
+      "id": "new-1791248008261-824",
+      "date": "2026-10-06",
+      "category": "오더 배분 및 라인 북킹 전략",
+      "status": "진행중",
+      "no": 2,
+      "content": "업체소싱 1 _ 중따 샘플실 활용",
+      "note": "",
+      "assignees": [
+        "박명월"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-06T00:53:28.261Z"
     }
   ],
   "overrides": {
@@ -2778,5 +2792,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T00:46:30.355Z"
+  "updatedAt": "2026-10-06T00:53:28.262Z"
 }

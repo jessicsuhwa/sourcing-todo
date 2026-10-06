@@ -2798,7 +2798,8 @@
     "DILIP",
     "오더 배분 및 라인 북킹 전략",
     "CLAIM",
-    "ETC"
+    "ETC",
+    "TENO"
   ],
   "vendorList": [
     "CG",
@@ -2838,5 +2839,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T01:14:31.300Z"
+  "updatedAt": "2026-10-06T01:15:00.124Z"
 }

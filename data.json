@@ -828,6 +828,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-10-06T01:41:04.495Z"
+    },
+    {
+      "id": "new-1791266348432-64",
+      "date": "2026-10-06",
+      "category": "오더 배분 및 라인 북킹 전략",
+      "status": "진행중",
+      "no": 4,
+      "content": "10월 결제건 _ 자금계획확인",
+      "note": "",
+      "assignees": [
+        "성연재"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-06T05:59:08.432Z"
     }
   ],
   "overrides": {
@@ -2884,5 +2898,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T05:44:32.081Z"
+  "updatedAt": "2026-10-06T05:59:08.432Z"
 }

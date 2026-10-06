@@ -640,18 +640,19 @@
     },
     {
       "id": "new-1790553916620-990",
-      "date": "2026-09-28",
+      "date": "2026-10-06",
       "category": "2027 S/S",
       "status": "진행중",
       "no": 1,
-      "content": "27 SUMMER TECH PACK 발송",
+      "content": "27 SUMMER TECH PACK 발송, 수량변동의건",
       "note": "",
       "assignees": [
         "정수화",
         "강규화"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-09-28T00:05:16.620Z"
+      "createdAt": "2026-09-28T00:05:16.620Z",
+      "updatedAt": "2026-10-06T00:33:16.944Z"
     },
     {
       "id": "new-1790562117161-301",
@@ -2719,5 +2720,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T00:32:44.033Z"
+  "updatedAt": "2026-10-06T00:33:16.945Z"
 }

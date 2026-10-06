@@ -374,17 +374,17 @@
     {
       "id": "new-1788173425919-645",
       "date": "2026-10-06",
-      "category": "2026 F/W",
+      "category": "TENO",
       "status": "진행중",
       "no": 1,
-      "content": "26F/W TENO 납기 치송 9/9 ferry , 3차 오더 (10월) 10/25일 예상",
+      "content": "26F/W TENO 납기 전체적으로 RE-CHECK",
       "note": "",
       "assignees": [
-        "정수화"
+        "박명월"
       ],
       "createdBy": "정수화",
       "createdAt": "2026-08-31T10:50:25.919Z",
-      "updatedAt": "2026-10-06T00:38:33.433Z"
+      "updatedAt": "2026-10-06T01:15:24.437Z"
     },
     {
       "id": "new-1788173470898-913",
@@ -2839,5 +2839,5 @@
     "성연재": "yeonjaeseong@brandedlifestyle.com",
     "정수화": "jessicajung@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-06T01:15:00.124Z"
+  "updatedAt": "2026-10-06T01:15:24.437Z"
 }

@@ -748,7 +748,7 @@
     },
     {
       "id": "new-1791248090410-53",
-      "date": "2026-10-06",
+      "date": "2026-10-14",
       "category": "오더 배분 및 라인 북킹 전략",
       "status": "진행중",
       "no": 3,
@@ -758,7 +758,8 @@
         "박명월"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-10-06T00:54:50.410Z"
+      "createdAt": "2026-10-06T00:54:50.410Z",
+      "updatedAt": "2026-10-12T00:50:29.877Z"
     },
     {
       "id": "new-1791248372019-899",
@@ -2933,5 +2934,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-12T00:50:13.408Z"
+  "updatedAt": "2026-10-12T00:50:29.877Z"
 }

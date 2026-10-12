@@ -890,6 +890,20 @@
       "createdBy": "정수화",
       "createdAt": "2026-10-12T05:11:56.258Z",
       "updatedAt": "2026-10-12T05:12:07.221Z"
+    },
+    {
+      "id": "new-1791785216397-817",
+      "date": "2026-10-12",
+      "category": "DILIP",
+      "status": "진행중",
+      "no": 2,
+      "content": "티월드코리아_거래조건 및 HEBEI 생산건 확인",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-12T06:06:56.397Z"
     }
   ],
   "overrides": {
@@ -2952,5 +2966,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-12T05:12:07.222Z"
+  "updatedAt": "2026-10-12T06:06:56.397Z"
 }

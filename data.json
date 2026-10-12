@@ -904,6 +904,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-10-12T06:06:56.397Z"
+    },
+    {
+      "id": "new-1791790582739-18",
+      "date": "2026-10-12",
+      "category": "DILIP",
+      "status": "진행중",
+      "no": 3,
+      "content": "Accio 활용방법 문의 _ clair",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-12T07:36:22.739Z"
     }
   ],
   "overrides": {
@@ -2966,5 +2980,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-12T06:06:56.397Z"
+  "updatedAt": "2026-10-12T07:36:22.739Z"
 }

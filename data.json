@@ -879,7 +879,7 @@
     {
       "id": "new-1791781916258-321",
       "date": "2026-10-12",
-      "category": "",
+      "category": "DILIP",
       "status": "진행중",
       "no": 1,
       "content": "Li & Fung 120th Anniversary T-shirt",
@@ -888,7 +888,8 @@
         "정수화"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-10-12T05:11:56.258Z"
+      "createdAt": "2026-10-12T05:11:56.258Z",
+      "updatedAt": "2026-10-12T05:12:07.221Z"
     }
   ],
   "overrides": {
@@ -2951,5 +2952,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-12T05:11:56.258Z"
+  "updatedAt": "2026-10-12T05:12:07.222Z"
 }

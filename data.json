@@ -856,6 +856,21 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-10-06T07:40:38.595Z"
+    },
+    {
+      "id": "new-1791766114706-609",
+      "date": "2026-10-12",
+      "category": "2026 F/W",
+      "status": "진행중",
+      "no": 1,
+      "content": "긴급_한국생산티셔츠업체 라벨갈이교체 진행",
+      "note": "",
+      "assignees": [
+        "정수화",
+        "박명월"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-12T00:48:34.706Z"
     }
   ],
   "overrides": {
@@ -2914,5 +2929,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-12T00:45:28.328Z"
+  "updatedAt": "2026-10-12T00:48:34.706Z"
 }

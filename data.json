@@ -672,7 +672,7 @@
     },
     {
       "id": "new-1791247178104-962",
-      "date": "2026-10-06",
+      "date": "2026-10-13",
       "category": "DILIP",
       "status": "진행중",
       "no": 3,
@@ -682,7 +682,8 @@
         "정수화"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-10-06T00:39:38.105Z"
+      "createdAt": "2026-10-06T00:39:38.105Z",
+      "updatedAt": "2026-10-12T00:51:28.904Z"
     },
     {
       "id": "new-1791247347378-284",
@@ -2934,5 +2935,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-12T00:51:05.970Z"
+  "updatedAt": "2026-10-12T00:51:28.904Z"
 }

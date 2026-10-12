@@ -848,17 +848,18 @@
     },
     {
       "id": "new-1791272438595-871",
-      "date": "2026-10-06",
+      "date": "2026-10-13",
       "category": "TENO",
       "status": "진행중",
       "no": 3,
-      "content": "17590-031-804-69 스타일 TAG가와 전산등록가 상이",
+      "content": "긴급)17590-031-804-69 스타일 TAG가와 전산등록가 상이",
       "note": "",
       "assignees": [
         "정수화"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-10-06T07:40:38.595Z"
+      "createdAt": "2026-10-06T07:40:38.595Z",
+      "updatedAt": "2026-10-12T00:52:42.820Z"
     },
     {
       "id": "new-1791766114706-609",
@@ -2935,5 +2936,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-12T00:52:15.387Z"
+  "updatedAt": "2026-10-12T00:52:42.820Z"
 }

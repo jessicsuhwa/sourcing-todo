@@ -875,6 +875,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-10-12T00:48:34.706Z"
+    },
+    {
+      "id": "new-1791781916258-321",
+      "date": "2026-10-12",
+      "category": "",
+      "status": "진행중",
+      "no": 1,
+      "content": "Li & Fung 120th Anniversary T-shirt",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-12T05:11:56.258Z"
     }
   ],
   "overrides": {
@@ -2937,5 +2951,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-12T00:52:57.842Z"
+  "updatedAt": "2026-10-12T05:11:56.258Z"
 }

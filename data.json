@@ -918,6 +918,20 @@
       ],
       "createdBy": "정수화",
       "createdAt": "2026-10-12T07:36:22.739Z"
+    },
+    {
+      "id": "new-1791867662444-267",
+      "date": "2026-10-22",
+      "category": "DILIP",
+      "status": "진행중",
+      "no": 1,
+      "content": "LF 120주년 티셔츠 생산건 수량받고　ＱＣ　제대로",
+      "note": "",
+      "assignees": [
+        "정수화"
+      ],
+      "createdBy": "정수화",
+      "createdAt": "2026-10-13T05:01:02.444Z"
     }
   ],
   "overrides": {
@@ -2984,5 +2998,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-13T05:00:01.716Z"
+  "updatedAt": "2026-10-13T05:01:02.445Z"
 }

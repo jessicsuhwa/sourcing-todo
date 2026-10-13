@@ -939,13 +939,14 @@
       "category": "오더 배분 및 라인 북킹 전략",
       "status": "진행중",
       "no": 1,
-      "content": "Ｃ２Ｍ　２．０　ＰＲＯＣＥＳＳ",
+      "content": "C2M 2.O PROCESS 정리해서 각 부서 공유",
       "note": "",
       "assignees": [
         "정수화"
       ],
       "createdBy": "정수화",
-      "createdAt": "2026-10-13T05:03:03.256Z"
+      "createdAt": "2026-10-13T05:03:03.256Z",
+      "updatedAt": "2026-10-13T05:05:44.175Z"
     }
   ],
   "overrides": {
@@ -3012,5 +3013,5 @@
     "정수화": "jessicajung@brandedlifestyle.com",
     "박명월": "paulinepark@brandedlifestyle.com"
   },
-  "updatedAt": "2026-10-13T05:03:03.256Z"
+  "updatedAt": "2026-10-13T05:05:44.175Z"
 }
